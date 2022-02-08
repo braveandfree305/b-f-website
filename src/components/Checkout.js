@@ -7,7 +7,7 @@ let stripePromise;
 
 const getStripe = () => {
   if (!stripePromise) {
-    stripePromise = loadStripe(process.env.REACT_APP_STRIPE_KEY);
+    stripePromise = loadStripe('pk_test_51KQgJmKoyRYHxifyUsWjuLfRd0lC08xdnb7nJMTaM10KnTbwwv5YM6b2jsoFAAus6Vf6DUlqBnIIxl2wkF0aWbB0004yMDvo9t');
   }
 
   return stripePromise;
