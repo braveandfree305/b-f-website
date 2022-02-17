@@ -1,3 +1,4 @@
+import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Checkout from './components/Checkout';
 import Success from "./components/Success";
@@ -8,7 +9,7 @@ import Prices from "./components/Prices";
 import Faqs from "./components/Faqs";
 import Contactus from "./components/Contactus";
 import './App.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     

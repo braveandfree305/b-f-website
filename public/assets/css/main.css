@@ -174,7 +174,7 @@ html {
 
 body {
   background: #252122;
-  background-image: url("images/bg02.png");
+  background-image: url("");
 }
 
 body.is-preload *,
@@ -2371,7 +2371,7 @@ ul.social li a.fa-google-plus:hover {
 
 #main {
   position: relative;
-  background: #f7f7f7 url("images/bg02.png");
+  background: #f7f7f7 url("");
   padding: 4em 0 4em 0;
 }
 
@@ -2381,22 +2381,23 @@ ul.social li a.fa-google-plus:hover {
   top: 0;
   left: 0;
   width: 100%;
-  background: url("images/bg01.png");
+  background: url("");
   background-size: 100% 100%;
   z-index: 0;
   opacity: 0.1;
 }
 
 #main .major h2 {
-  background: #f7f7f7 url("images/bg02.png");
+  background: #f7f7f7 url("");
 }
 
 /* Footer */
 
 #footer {
   position: relative;
-  color: #858484;
+  color: #807f7f;
   padding: 4em 0;
+  background-color: purple;
 }
 
 #footer:before {
@@ -2405,7 +2406,6 @@ ul.social li a.fa-google-plus:hover {
   top: 0;
   left: 0;
   width: 100%;
-  background: url("images/bg01.png");
   background-size: 100% 100%;
   z-index: 0;
   opacity: 0.5;
@@ -2752,7 +2752,7 @@ ul.social li a.fa-google-plus:hover {
     width: 275px;
     z-index: 10002;
     color: #858484;
-    background-image: url("images/bg02.png");
+    background-image: url("");
     box-shadow: inset -3px 0px 5px 0px rgba(0, 0, 0, 0.35);
   }
 

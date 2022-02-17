@@ -1,0 +1,20 @@
+.accordion{
+    padding: 5%;
+    margin: 3%;
+    margin-top: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.accordion-item{
+    font:white;
+    color: rgb(247, 247, 247);
+    background-color: purple;
+}
+.accordion-header{
+    color: blue;
+    background-color: blue;
+}
+.letters{
+    color: rgba(129, 127, 127, 0.61)
+}
+
