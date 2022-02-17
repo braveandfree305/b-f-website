@@ -15,20 +15,20 @@ const Faqs =()=> {
 								<li>
 									<a href="/Prices">Prices</a>
 									<ul>
-										<li><a href="#">Lorem ipsum dolor</a></li>
-										<li><a href="#">Magna phasellus</a></li>
-										<li><a href="#">Etiam dolore nisl</a></li>
+										<li><a href="/Faqs">Lorem ipsum dolor</a></li>
+										<li><a href="/Faqs">Magna phasellus</a></li>
+										<li><a href="/Faqs">Etiam dolore nisl</a></li>
 										<li>
-											<a href="#">Phasellus consequat</a>
+											<a href="/Faqs">Phasellus consequat</a>
 											<ul>
-												<li><a href="#">Magna phasellus</a></li>
-												<li><a href="#">Etiam dolore nisl</a></li>
-												<li><a href="#">Veroeros feugiat</a></li>
-												<li><a href="#">Nisl sed aliquam</a></li>
-												<li><a href="#">Dolore adipiscing</a></li>
+												<li><a href="/Faqs">Magna phasellus</a></li>
+												<li><a href="/Faqs">Etiam dolore nisl</a></li>
+												<li><a href="/Faqs">Veroeros feugiat</a></li>
+												<li><a href="/Faqs">Nisl sed aliquam</a></li>
+												<li><a href="/Faqs">Dolore adipiscing</a></li>
 											</ul>
 										</li>
-										<li><a href="#">Veroeros feugiat</a></li>
+										<li><a href="/Faqs">Veroeros feugiat</a></li>
 									</ul>
 								</li>
 								<li className="current"><a href="/Faqs">FAQ's</a></li>
@@ -47,13 +47,13 @@ const Faqs =()=> {
 
 								{/* <!-- Sidebar --> */}
 									<section className="box">
-										<a href="#" className="image featured"><img src="images/pic09.jpg" alt="" /></a>
+										<a href="/Faqs" className="image featured"><img src="images/pic09.jpg" alt="" /></a>
 										<header>
 											<h3>Sed etiam lorem nulla</h3>
 										</header>
 										<p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit  adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
 										<footer>
-											<a href="#" className="button alt">Magna sed taciti</a>
+											<a href="/Faqs" className="button alt">Magna sed taciti</a>
 										</footer>
 									</section>
 									<section className="box">
@@ -62,13 +62,13 @@ const Faqs =()=> {
 										</header>
 										<p>Veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat sed lorem consequat feugiat lorem dolore.</p>
 										<ul className="divided">
-											<li><a href="#">Sed et blandit consequat sed</a></li>
-											<li><a href="#">Hendrerit tortor vitae sapien dolore</a></li>
-											<li><a href="#">Sapien id suscipit magna sed felis</a></li>
-											<li><a href="#">Aptent taciti sociosqu ad litora</a></li>
+											<li><a href="/Faqs">Sed et blandit consequat sed</a></li>
+											<li><a href="/Faqs">Hendrerit tortor vitae sapien dolore</a></li>
+											<li><a href="/Faqs">Sapien id suscipit magna sed felis</a></li>
+											<li><a href="/Faqs">Aptent taciti sociosqu ad litora</a></li>
 										</ul>
 										<footer>
-											<a href="#" className="button alt">Ipsum consequat</a>
+											<a href="/Faqs" className="button alt">Ipsum consequat</a>
 										</footer>
 									</section>
 
@@ -77,7 +77,7 @@ const Faqs =()=> {
 
 								{/* <!-- Content --> */}
 									<article className="box post">
-										<a href="#" className="image featured"><img src="images/pic01.jpg" alt="" /></a>
+										<a href="/Faqs" className="image featured"><img src="images/pic01.jpg" alt="" /></a>
 										<header>
 											<h2>FAQ's</h2>
 											<p>Lorem ipsum dolor sit amet feugiat</p>
@@ -145,27 +145,27 @@ const Faqs =()=> {
 									<ul className="dates">
 										<li>
 											<span className="date">Jan <strong>27</strong></span>
-											<h3><a href="#">Lorem dolor sit amet veroeros</a></h3>
+											<h3><a href="/Faqs">Lorem dolor sit amet veroeros</a></h3>
 											<p>Ipsum dolor sit amet veroeros consequat blandit ipsum phasellus lorem consequat etiam.</p>
 										</li>
 										<li>
 											<span className="date">Jan <strong>23</strong></span>
-											<h3><a href="#">Ipsum sed blandit nisl consequat</a></h3>
+											<h3><a href="/Faqs">Ipsum sed blandit nisl consequat</a></h3>
 											<p>Blandit phasellus lorem ipsum dolor tempor sapien tortor hendrerit adipiscing feugiat lorem.</p>
 										</li>
 										<li>
 											<span className="date">Jan <strong>15</strong></span>
-											<h3><a href="#">Magna tempus lorem feugiat</a></h3>
+											<h3><a href="/Faqs">Magna tempus lorem feugiat</a></h3>
 											<p>Dolore consequat sed phasellus lorem sed etiam nullam dolor etiam sed amet sit consequat.</p>
 										</li>
 										<li>
 											<span className="date">Jan <strong>12</strong></span>
-											<h3><a href="#">Dolore tempus ipsum feugiat nulla</a></h3>
+											<h3><a href="/Faqs">Dolore tempus ipsum feugiat nulla</a></h3>
 											<p>Feugiat lorem dolor sed nullam tempus lorem ipsum dolor sit amet nullam consequat.</p>
 										</li>
 										<li>
 											<span className="date">Jan <strong>10</strong></span>
-											<h3><a href="#">Blandit tempus aliquam?</a></h3>
+											<h3><a href="/Faqs">Blandit tempus aliquam?</a></h3>
 											<p>Feugiat sed tempus blandit tempus adipiscing nisl lorem ipsum dolor sit amet dolore.</p>
 										</li>
 									</ul>
@@ -176,7 +176,7 @@ const Faqs =()=> {
 									<header>
 										<h2>What's this all about?</h2>
 									</header>
-									<a href="#" className="image featured"><img src="images/pic10.jpg" alt="" /></a>
+									<a href="/Faqs" className="image featured"><img src="images/pic10.jpg" alt="" /></a>
 									<p>
 										This is <strong>Brave And Free Miami Bus Tours</strong> a free, fully responsive HTML5 site template by
 										<a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net/">HTML5 UP</a> It's released for free under
@@ -184,7 +184,7 @@ const Faqs =()=> {
 									</p>
 									<footer>
 										<ul className="actions">
-											<li><a href="#" className="button">Find out more</a></li>
+											<li><a href="/Faqs" className="button">Find out more</a></li>
 										</ul>
 									</footer>
 								</section>
@@ -195,12 +195,12 @@ const Faqs =()=> {
 										<h2>Tempus consequat</h2>
 									</header>
 									<ul className="divided">
-										<li><a href="#">Lorem ipsum dolor sit amet sit veroeros</a></li>
-										<li><a href="#">Sed et blandit consequat sed tlorem blandit</a></li>
-										<li><a href="#">Adipiscing feugiat phasellus sed tempus</a></li>
-										<li><a href="#">Hendrerit tortor vitae mattis tempor sapien</a></li>
-										<li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
-										<li><a href="#">Elit className aptent taciti sociosqu ad litora</a></li>
+										<li><a href="/Faqs">Lorem ipsum dolor sit amet sit veroeros</a></li>
+										<li><a href="/Faqs">Sed et blandit consequat sed tlorem blandit</a></li>
+										<li><a href="/Faqs">Adipiscing feugiat phasellus sed tempus</a></li>
+										<li><a href="/Faqs">Hendrerit tortor vitae mattis tempor sapien</a></li>
+										<li><a href="/Faqs">Sem feugiat sapien id suscipit magna felis nec</a></li>
+										<li><a href="/Faqs">Elit className aptent taciti sociosqu ad litora</a></li>
 									</ul>
 								</section>
 							</div>
@@ -210,12 +210,12 @@ const Faqs =()=> {
 										<h2>Ipsum et phasellus</h2>
 									</header>
 									<ul className="divided">
-										<li><a href="#">Lorem ipsum dolor sit amet sit veroeros</a></li>
-										<li><a href="#">Sed et blandit consequat sed tlorem blandit</a></li>
-										<li><a href="#">Adipiscing feugiat phasellus sed tempus</a></li>
-										<li><a href="#">Hendrerit tortor vitae mattis tempor sapien</a></li>
-										<li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
-										<li><a href="#">Elit className aptent taciti sociosqu ad litora</a></li>
+										<li><a href="/Faqs">Lorem ipsum dolor sit amet sit veroeros</a></li>
+										<li><a href="/Faqs">Sed et blandit consequat sed tlorem blandit</a></li>
+										<li><a href="/Faqs">Adipiscing feugiat phasellus sed tempus</a></li>
+										<li><a href="/Faqs">Hendrerit tortor vitae mattis tempor sapien</a></li>
+										<li><a href="/Faqs">Sem feugiat sapien id suscipit magna felis nec</a></li>
+										<li><a href="/Faqs">Elit className aptent taciti sociosqu ad litora</a></li>
 									</ul>
 								</section>
 							</div>
@@ -225,11 +225,11 @@ const Faqs =()=> {
 										<h2>Vitae tempor lorem</h2>
 									</header>
 									<ul className="social">
-										<li><a className="icon brands fa-facebook-f" href="#"><span className="label">Facebook</span></a></li>
-										<li><a className="icon brands fa-twitter" href="#"><span className="label">Twitter</span></a></li>
-										<li><a className="icon brands fa-dribbble" href="#"><span className="label">Dribbble</span></a></li>
-										<li><a className="icon brands fa-tumblr" href="#"><span className="label">Tumblr</span></a></li>
-										<li><a className="icon brands fa-linkedin-in" href="#"><span className="label">LinkedIn</span></a></li>
+										<li><a className="icon brands fa-facebook-f" href="/Faqs"><span className="label">Facebook</span></a></li>
+										<li><a className="icon brands fa-twitter" href="/Faqs"><span className="label">Twitter</span></a></li>
+										<li><a className="icon brands fa-dribbble" href="/Faqs"><span className="label">Dribbble</span></a></li>
+										<li><a className="icon brands fa-tumblr" href="/Faqs"><span className="label">Tumblr</span></a></li>
+										<li><a className="icon brands fa-linkedin-in" href="/Faqs"><span className="label">LinkedIn</span></a></li>
 									</ul>
 									<ul className="contact">
 										<li>
@@ -242,7 +242,7 @@ const Faqs =()=> {
 										</li>
 										<li>
 											<h3>Mail</h3>
-											<p><a href="#">someone@untitled.tld</a></p>
+											<p><a href="/Faqs">someone@untitled.tld</a></p>
 										</li>
 										<li>
 											<h3>Phone</h3>
