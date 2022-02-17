@@ -1,31 +1,19 @@
-<!DOCTYPE HTML>
-<!--
-	Dopetrope by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Dopetrope by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="right-sidebar is-preload">
-		<div id="page-wrapper">
+const Contactus =()=> {
+    return (
+        <div id="page-wrapper">
 
-			<!-- Header -->
+			{/* <!-- Header --> */}
 				<section id="header">
 
-					<!-- Logo -->
-						<h1><a href="index.html">Dopetrope</a></h1>
+					{/* <!-- Logo --> */}
+						<h1><a href="index.html">Brave And Free Miami Bus Tours</a></h1>
 
-					<!-- Nav -->
+					{/* <!-- Nav --> */}
 						<nav id="nav">
 							<ul>
-								<li><a href="index.html">Home</a></li>
+                            <li><a href="/">Home</a></li>
 								<li>
-									<a href="#">Dropdown</a>
+									<a href="/Prices">Prices</a>
 									<ul>
 										<li><a href="#">Lorem ipsum dolor</a></li>
 										<li><a href="#">Magna phasellus</a></li>
@@ -43,25 +31,25 @@
 										<li><a href="#">Veroeros feugiat</a></li>
 									</ul>
 								</li>
-								<li><a href="left-sidebar.html">Left Sidebar</a></li>
-								<li class="current"><a href="right-sidebar.html">Right Sidebar</a></li>
-								<li><a href="no-sidebar.html">No Sidebar</a></li>
+								<li><a href="/Faqs">FAQ's</a></li>
+								<li class="current"><a href="/ContactUs">Contact Us</a></li>
+								<li><a href="/BookNow">Book Now</a></li>
 							</ul>
 						</nav>
 
 				</section>
 
-			<!-- Main -->
+			{/* <!-- Main --> */}
 				<section id="main">
 					<div class="container">
 						<div class="row">
 							<div class="col-8 col-12-medium">
 
-								<!-- Content -->
+								{/* <!-- Content --> */}
 									<article class="box post">
 										<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
 										<header>
-											<h2>Right sidebar</h2>
+											<h2>Contact Us</h2>
 											<p>Lorem ipsum dolor sit amet feugiat</p>
 										</header>
 										<p>
@@ -113,7 +101,7 @@
 							</div>
 							<div class="col-4 col-12-medium">
 
-								<!-- Sidebar -->
+								{/* <!-- Sidebar --> */}
 									<section class="box">
 										<a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
 										<header>
@@ -145,7 +133,7 @@
 					</div>
 				</section>
 
-			<!-- Footer -->
+			{/* <!-- Footer --> */}
 				<section id="footer">
 					<div class="container">
 						<div class="row">
@@ -190,7 +178,7 @@
 									</header>
 									<a href="#" class="image featured"><img src="images/pic10.jpg" alt="" /></a>
 									<p>
-										This is <strong>Dopetrope</strong> a free, fully responsive HTML5 site template by
+										This is <strong>Brave And Free Miami Bus Tours</strong> a free, fully responsive HTML5 site template by
 										<a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net/">HTML5 UP</a> It's released for free under
 										the <a href="http://html5up.net/license/">Creative Commons Attribution</a> license so feel free to use it for any personal or commercial project &ndash; just don't forget to credit us!
 									</p>
@@ -265,7 +253,7 @@
 							</div>
 							<div class="col-12">
 
-								<!-- Copyright -->
+								{/* <!-- Copyright --> */}
 									<div id="copyright">
 										<ul class="links">
 											<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
@@ -278,14 +266,7 @@
 				</section>
 
 		</div>
+    )
+}
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
-</html>
+export default Contactus;
