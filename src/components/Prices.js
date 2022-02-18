@@ -6,7 +6,7 @@ const Prices =()=> {
             <section id="header">
 
                 {/* <!-- Logo --> */}
-                    <h1><a href="/">Brave And Free Miami Bus Tours</a></h1>
+                    <h1><a href="/">Brave And Free Open Air Party Bus</a></h1>
 
                 {/* <!-- Nav --> */}
                     <nav id="nav">
@@ -36,7 +36,8 @@ const Prices =()=> {
                             <li><a href="/BookNow">Book Now</a></li>
                         </ul>
                     </nav>
-
+					<br></br>
+						<h6>(786) 260-3832</h6>
             </section>
 			<section id="main">
 					<div className="container">
@@ -113,11 +114,11 @@ const Prices =()=> {
 										</li>
 										<li>
 											<h3>Mail</h3>
-											<p><a href="/Faqs">someone@untitled.tld</a></p>
+											<p><a href="/Faqs">braveandfree1@gmail.com</a></p>
 										</li>
 										<li>
 											<h3>Phone</h3>
-											<p>(800) 000-0000</p>
+											<p>(786) 260-3832</p>
 										</li>
 									</ul>
 								</section>

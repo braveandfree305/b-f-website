@@ -1,49 +1,26 @@
-import React, { useState } from 'react';
-import styled from "styled-components"
-import { useHistory } from 'react-router-dom';
-import { Link } from 'react-router-dom';
-import axios from 'axios'
-const initial = {
-    names:"",
-    email: "",
-    subject: "",
-    phone: "",
-    message: ""
-};
+import React, {useRef} from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contactus =()=> {
 
-	const { push } = useHistory();
-const [formVals, setFormVals] = useState(initial)
+	const form = useRef();
 
-const handleChange = (e) => {
-	setFormVals({
-		...formVals,
-		[e.target.name]: e.target.value
-	});
-}
+	const sendEmail = (e) => {
+		e.preventDefault();
 
-const handleSubmit = (e) => {
-	axios.post(`http://localhost:5000/api/movies`, formVals)
-	.then(res => {
-		// props.setMovies(res.data);
-		push('/movies');
-	})
-	.catch(err=> {
-		console.log(err);
-	  })
-}
-const {names, email, subject, phone, message} = formVals
-    return (
+		emailjs.sendForm('gmail', 'template_rebe3wx', e.target, 'user_aEgqVhocTMQyiKQUA5Edy')
+		.then((result) => {
+			console.log(result.text);
+		}, (error) => {
+			console.log(error.text);
+		});
+		e.target.reset()
+	};
+
+    return (		
         <div id="page-wrapper">
-
-			{/* <!-- Header --> */}
 				<section id="header">
-
-					{/* <!-- Logo --> */}
-						<h1><a href="/">Brave And Free Miami Bus Tours</a></h1>
-
-					{/* <!-- Nav --> */}
+						<h1><a href="/">Brave And Free Open Air Party Bus</a></h1>
 						<nav id="nav">
 							<ul>
                             <li><a href="/">Home</a></li>
@@ -71,54 +48,42 @@ const {names, email, subject, phone, message} = formVals
 								<li><a href="/BookNow">Book Now</a></li>
 							</ul>
 						</nav>
-
-
-						
+						<br></br>
+						<h6>(786) 260-3832</h6>
 				</section>
-				
-		
-			{/* <!-- Main --> */}
+
 				<section id="main">
 					<div className="container">
-						
-									<section className="box" id='special'>
-										<FormContainer onSubmit={handleSubmit}>
-										<h3>Contact Us</h3>
-
-										<h4 className="modal-title">Leave Us A Message<strong>{formVals.names}</strong></h4>
-				<div className="modal-header">			
-				</div>
-				<div className="modal-body">					
-					<div className="form-group">
-						<label>Name</label>
-						<input value={names} onChange={handleChange} name="names" type="text" className="form-control"/>
-					</div>
-					<div className="form-group">
-						<label>email</label>
-						<input value={email} onChange={handleChange} name="email" type="text" className="form-control"/>
-					</div>
-					<div className="form-group">
-						<label>Subject</label>
-						<input value={subject} onChange={handleChange} name="subject" type="text" className="form-control"/>
-					</div>
-					<div className="form-group">
-						<label>Phone</label>
-						<input value={phone} onChange={handleChange} name="phone" type="text" className="form-control"/>
-					</div>		
-					<div className="form-group">
-						<label>Message</label>
-						<textarea value={message} onChange={handleChange} name="message" className="form-control"></textarea>
-					</div>		
-				</div>
-				<div className="modal-footer">			    
-					<input type="submit" className="btn btn-info" value="Save"/>
-					<Link to={`/`}><input type="button" className="btn btn-default" value="Cancel"/></Link>
-				</div>
-			</FormContainer>
-		
+									<section className="box" id='special'>		
+										<form ref={form} onSubmit={sendEmail}>
+											<div className="modal-body">					
+												<div className="form-group">
+													<label>Name</label>
+													<input name="names" type="text" className="form-control"/>
+												</div>
+												<div className="form-group">
+													<label>Email</label>
+													<input name="email" type="email" className="form-control"/>
+												</div>
+												<div className="form-group">
+													<label>Subject</label>
+													<input name="subject" type="text" className="form-control"/>
+												</div>
+												<div className="form-group">
+													<label>Phone</label>
+													<input name="phone" type="text" className="form-control"/>
+												</div>		
+												<div className="form-group">
+													<label>Message</label>
+													<textarea name="message" className="form-control"></textarea>
+												</div>		
+											</div>
+											<div className="modal-footer">			    
+											<input type="submit" value="Send" />
+											</div>
+										</form>
 									</section>
-					</div>
-					
+						</div>
 				</section>
 
 			{/* <!-- Footer --> */}
@@ -146,11 +111,11 @@ const {names, email, subject, phone, message} = formVals
 										</li>
 										<li>
 											<h3>Mail</h3>
-											<p><a href="/Faqs">someone@untitled.tld</a></p>
+											<p><a href="/Faqs">braveandfree1@gmail.com</a></p>
 										</li>
 										<li>
 											<h3>Phone</h3>
-											<p>(800) 000-0000</p>
+											<p>(786) 260-3832</p>
 										</li>
 									</ul>
 								</section>
@@ -172,21 +137,4 @@ const {names, email, subject, phone, message} = formVals
 		</div>
     )
 }
-const FormContainer = styled.form`
-    padding: 1em;
-    width: 400px;
-    background: white;
-
-    label {
-        margin-top: 0.5em;
-    }
-
-    input {
-        padding: 0.5em;
-    }
-    
-    div { 
-        margin: 0.5em 0;
-    }
-`
 export default Contactus
