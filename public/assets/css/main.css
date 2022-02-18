@@ -1672,7 +1672,10 @@ footer {
   border-bottom: solid 1px #ccc;
   padding: 2.75em 1.75em 2.75em 1.75em;
 }
-
+#special{
+  display:flex;
+  justify-content: center;
+}
 .box .image.featured {
   position: relative;
   width: auto;
@@ -2172,7 +2175,7 @@ ul.social li a.fa-google-plus:hover {
 }
 
 #header h1 {
-  color: #252122;
+  color: purple;
   font-weight: 900;
   font-size: 2.5em;
   letter-spacing: -0.035em;
@@ -2281,7 +2284,7 @@ ul.social li a.fa-google-plus:hover {
   background-repeat: no-repeat;
   text-align: center;
   position: relative;
-  height: 400px;
+  height: 500px;
   padding: 8em 0;
   margin: 4em 0 0 0;
 }
@@ -2751,14 +2754,14 @@ ul.social li a.fa-google-plus:hover {
     top: 0;
     width: 275px;
     z-index: 10002;
-    color: #858484;
+    color: #999999;
     background-image: url("");
     box-shadow: inset -3px 0px 5px 0px rgba(0, 0, 0, 0.35);
   }
 
   #navPanel .link {
     display: block;
-    color: #888;
+    color: rgb(131, 131, 131);
     text-decoration: none;
     height: 44px;
     line-height: 44px;
