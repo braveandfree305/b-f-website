@@ -188,9 +188,9 @@ The bus is strictly BYOB or (Bring Your Own Beverage). We do not sell any bevera
 										<li>
 											<h3>Address</h3>
 											<p>
-												Untitled Incorporated<br />
-												1234 Somewhere Road Suite<br />
-												Nashville, TN 00000-0000
+												4719 NW 7 ST,<br />
+												MIAMI,<br />
+												33126
 											</p>
 										</li>
 										<li>
