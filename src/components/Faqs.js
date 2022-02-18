@@ -166,7 +166,7 @@ The bus is strictly BYOB or (Bring Your Own Beverage). We do not sell any bevera
     </div>
   </div>
 </div>
-									<a href="/Faqs" className="image featured"><img src="images/pic01.jpg" alt="" /></a>
+									<img src="images/pic01.jpg" alt="" />
 						</div>
 					</div>
 				</section>
@@ -181,9 +181,8 @@ The bus is strictly BYOB or (Bring Your Own Beverage). We do not sell any bevera
 									<ul className="social">
 										<li><a className="icon brands fa-facebook-f" href="/Faqs"><span className="label">Facebook</span></a></li>
 										<li><a className="icon brands fa-twitter" href="/Faqs"><span className="label">Twitter</span></a></li>
-										<li><a className="icon brands fa-dribbble" href="/Faqs"><span className="label">Dribbble</span></a></li>
-										<li><a className="icon brands fa-tumblr" href="/Faqs"><span className="label">Tumblr</span></a></li>
-										<li><a className="icon brands fa-linkedin-in" href="/Faqs"><span className="label">LinkedIn</span></a></li>
+										<li><a className="icon brands fa-yelp" href="https://www.yelp.com/biz/brave-and-free-party-bus-tours-miami"><span className="label">Yelp</span></a></li>
+										<li><a className="icon brands fa-instagram" href="https://www.instagram.com/braveandfree_miami/?r=nametag"><span className="label">Instagram</span></a></li>
 									</ul>
 									<ul >
 										<li>

@@ -39,8 +39,16 @@ const Booknow =()=> {
 						<br></br>
 						<h6>(786) 260-3832</h6>
 				</section>
-		
-			{/* <!-- Footer --> */}
+				<footer>
+								<ul className="actions">
+									<li><a href="/Checkout" className="button large">Individual Ticket: $55</a></li>
+									<li><a href="/groupCheckout" className="button large">Group Purchase: $525</a></li>
+									<li><a href="/addOnCheckout" className="button large">Individual add on for group(15 people) Ticket: $35</a></li>
+									<li><a href="/ContactUs" className="button large">Please Contact Us For Happy Hour</a></li>
+								</ul>
+							</footer>
+
+
 			<section id="footer">
 					<div className="container">
 								<section>
@@ -50,9 +58,8 @@ const Booknow =()=> {
 									<ul className="social">
 										<li><a className="icon brands fa-facebook-f" href="/Faqs"><span className="label">Facebook</span></a></li>
 										<li><a className="icon brands fa-twitter" href="/Faqs"><span className="label">Twitter</span></a></li>
-										<li><a className="icon brands fa-dribbble" href="/Faqs"><span className="label">Dribbble</span></a></li>
-										<li><a className="icon brands fa-tumblr" href="/Faqs"><span className="label">Tumblr</span></a></li>
-										<li><a className="icon brands fa-linkedin-in" href="/Faqs"><span className="label">LinkedIn</span></a></li>
+										<li><a className="icon brands fa-yelp" href="https://www.yelp.com/biz/brave-and-free-party-bus-tours-miami"><span className="label">Yelp</span></a></li>
+										<li><a className="icon brands fa-instagram" href="https://www.instagram.com/braveandfree_miami/?r=nametag"><span className="label">Instagram</span></a></li>
 									</ul>
 									<ul >
 										<li>

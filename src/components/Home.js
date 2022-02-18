@@ -27,6 +27,9 @@ return (
 						<section id="banner">
 							<header>
 								<h2>Come Tour With Us And Explore The Hottest Places In Miami !</h2>
+								<p>Open Air party bus. Our buses feature seating for up to 30 guests.</p>
+								<p>Equipped with a bar, booming sound system, LED Dance Floor and the best way to experience Miami.</p>
+								<p>We can accommodate your tour in any way you wish. Get ready to see and be seen!</p>
 								<p>Downtown, Brickell, Wynwood, Little Havana and Coral Gables.</p>
 							</header>
 						</section>
@@ -200,9 +203,8 @@ return (
 									<ul className="social">
 										<li><a className="icon brands fa-facebook-f" href="/Faqs"><span className="label">Facebook</span></a></li>
 										<li><a className="icon brands fa-twitter" href="/Faqs"><span className="label">Twitter</span></a></li>
-										<li><a className="icon brands fa-dribbble" href="/Faqs"><span className="label">Dribbble</span></a></li>
-										<li><a className="icon brands fa-tumblr" href="/Faqs"><span className="label">Tumblr</span></a></li>
-										<li><a className="icon brands fa-linkedin-in" href="/Faqs"><span className="label">LinkedIn</span></a></li>
+										<li><a className="icon brands fa-yelp" href="https://www.yelp.com/biz/brave-and-free-party-bus-tours-miami"><span className="label">Yelp</span></a></li>
+										<li><a className="icon brands fa-instagram" href="https://www.instagram.com/braveandfree_miami/?r=nametag"><span className="label">Instagram</span></a></li>
 									</ul>
 									<ul >
 										<li>
@@ -231,24 +233,12 @@ return (
 										<ul className="links">
 											<li>&copy; Untitled. All rights reserved.</li>
 										</ul>
-									</div>
-
-							
-						
+									</div>	
 					</div>
 				</section>
 
 		</div>
 )
 }
-
-// const Antsnav = styled.div`
-// position:fixed;
-// width:100%;
-// top: 0;
-// background-color:rgba(255,255,255,0.8);
-// z-index:999;
-// padding:1% 0
-// `
 
 export default Home;

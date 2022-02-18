@@ -1,6 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Checkout from './components/Checkout';
+import GroupCheckout from "./components/GroupCheckout";
+import AdditionalCheckout from "./components/AdditionalCheckout";
 import Success from "./components/Success";
 import Cancel from "./components/Cancel";
 import Home from "./components/Home";
@@ -33,6 +35,12 @@ function App() {
 			</Route>
       <Route path='/checkout'>
 							<Checkout />
+					</Route>
+          <Route path='/groupcheckout'>
+							<GroupCheckout />
+					</Route>
+					<Route path='/addOncheckout'>
+							<AdditionalCheckout />
 					</Route>
       <Route path='/success'>
 							<Success />

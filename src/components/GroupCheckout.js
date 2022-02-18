@@ -13,11 +13,11 @@ const getStripe = () => {
   return stripePromise;
 };
 
-const Checkout = () => {
+const GroupCheckout = () => {
   const [stripeError, setStripeError] = useState(null);
   const [isLoading, setLoading] = useState(false);
   const item = {
-    price: "price_1KUdySKoyRYHxifywi4HGEWo",
+    price: "price_1KUe2CKoyRYHxify49mP9s2G",
     quantity: 1
   };
 
@@ -45,11 +45,11 @@ const Checkout = () => {
   return (
     <div className="checkout">
       <h1>Brave and Free Checkout</h1>
-      <p className="checkout-title">Individual Ticket</p>
+      <p className="checkout-title">Group Purchase</p>
       <p className="checkout-description">
         
       </p>
-      <h1 className="checkout-price">$55</h1>
+      <h1 className="checkout-price">$525</h1>
       <button
         className="checkout-button"
         onClick={redirectToCheckout}
@@ -64,4 +64,4 @@ const Checkout = () => {
   );
 };
 
-export default Checkout;
+export default GroupCheckout;
