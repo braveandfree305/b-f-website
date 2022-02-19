@@ -7,7 +7,7 @@ const Faqs =()=> {
 				<section id="header">
 
 					{/* <!-- Logo --> */}
-						<h1><a href="/">Brave And Free Open Air Party Bus</a></h1>
+						<h1><a href="/">Brave & Free Miami Tour Bus</a></h1>
 
 					{/* <!-- Nav --> */}
 						<nav id="nav">
@@ -15,22 +15,7 @@ const Faqs =()=> {
                             <li><a href="/">Home</a></li>
 								<li>
 									<a href="/Prices">Prices</a>
-									<ul>
-										<li><a href="/Faqs">Lorem ipsum dolor</a></li>
-										<li><a href="/Faqs">Magna phasellus</a></li>
-										<li><a href="/Faqs">Etiam dolore nisl</a></li>
-										<li>
-											<a href="/Faqs">Phasellus consequat</a>
-											<ul>
-												<li><a href="/Faqs">Magna phasellus</a></li>
-												<li><a href="/Faqs">Etiam dolore nisl</a></li>
-												<li><a href="/Faqs">Veroeros feugiat</a></li>
-												<li><a href="/Faqs">Nisl sed aliquam</a></li>
-												<li><a href="/Faqs">Dolore adipiscing</a></li>
-											</ul>
-										</li>
-										<li><a href="/Faqs">Veroeros feugiat</a></li>
-									</ul>
+									
 								</li>
 								<li className="current"><a href="/Faqs">FAQ's</a></li>
 								<li><a href="/ContactUs">Contact Us</a></li>

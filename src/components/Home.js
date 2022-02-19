@@ -5,7 +5,7 @@ return (
 				<section id="header">
 
 					{/* <!-- Logo --> */}
-						<h1><a href="/">Brave And Free Open Air Party Bus</a></h1>
+						<h1><a href="/">Brave & Free Miami Tour Bus</a></h1>
 
 					{/* <!-- Nav --> */}
 						<nav id="nav">
@@ -30,7 +30,7 @@ return (
 								<p>Open Air party bus. Our buses feature seating for up to 30 guests.</p>
 								<p>Equipped with a bar, booming sound system, LED Dance Floor and the best way to experience Miami.</p>
 								<p>We can accommodate your tour in any way you wish. Get ready to see and be seen!</p>
-								<p>Downtown, Brickell, Wynwood, Little Havana and Coral Gables.</p>
+								<p>Downtown, Brickell, Wynwood, Little Havana, Doral, Bayside, Coconut Grove and Coral Gables.</p>
 							</header>
 						</section>
 
@@ -163,7 +163,7 @@ return (
 
 									<section>
 										<header className="major">
-											<h2>The Blog</h2>
+											<h2>Locations</h2>
 										</header>
 										<div className="row">
 											<div className="col-6 col-12-small">
