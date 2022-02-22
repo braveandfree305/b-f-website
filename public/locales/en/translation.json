@@ -1,4 +1,6 @@
-{
+{   "welcome": {
+    "1": "Welcome to React and react-i18next"
+},
     "Nav1": {
         "1": "Home"
     },

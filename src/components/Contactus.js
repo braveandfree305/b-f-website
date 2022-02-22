@@ -1,7 +1,7 @@
 import React, {useRef} from 'react';
 import emailjs from '@emailjs/browser';
 import { useTranslation } from "react-i18next";
-const Contactus =()=> {
+const Contactus =(props)=> {
 
 	const form = useRef();
 
@@ -20,6 +20,16 @@ const Contactus =()=> {
     return (		
         <div id="page-wrapper">
 				<section id="header">
+				<nav>
+					<button onClick={()=>props.handleClick('en')}>
+						English
+					</button>
+					<button onClick={()=>props.handleClick('sp')}>
+						Espanol
+					</button>
+				</nav>
+				<br></br>
+				<br></br>
 						<h1><a href="/">Brave & Free Miami Tour Bus</a></h1>
 						<nav id="nav">
 							<ul>

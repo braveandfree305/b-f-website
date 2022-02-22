@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-const Prices =()=> {
+const Prices =(props)=> {
 
 	const { t } = useTranslation();
 
@@ -8,7 +8,16 @@ const Prices =()=> {
 
         {/* <!-- Header --> */}
             <section id="header">
-
+			<nav>
+				<button onClick={()=>props.handleClick('en')}>
+					English
+				</button>
+				<button onClick={()=>props.handleClick('sp')}>
+					Espanol
+				</button>
+			</nav>
+			<br></br>
+			<br></br>
                 {/* <!-- Logo --> */}
                     <h1><a href="/">Brave & Free Miami Tour Bus</a></h1>
 

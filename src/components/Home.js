@@ -1,15 +1,26 @@
 import { useTranslation } from "react-i18next";
 
-const Home =()=> {
+const Home =(props)=> {
 
 	const { t } = useTranslation();
 
 return (
     <div id="page-wrapper">
 			{/* <!-- Header --> */}
+			
 				<section id="header">
 
 					{/* <!-- Logo --> */}
+		<nav>
+			<button onClick={()=>props.handleClick('en')}>
+				English
+			</button>
+			<button onClick={()=>props.handleClick('sp')}>
+				Espanol
+			</button>
+		</nav>
+		<br></br>
+		<br></br>
 						<h1><a href="/">Brave & Free Miami Tour Bus</a></h1>
 
 					{/* <!-- Nav --> */}

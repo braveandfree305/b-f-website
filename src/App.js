@@ -13,6 +13,7 @@ import Contactus from "./components/Contactus";
 import './App.css';
 import { useTranslation } from "react-i18next";
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
 	const { i18n } = useTranslation();
 
@@ -25,29 +26,21 @@ function App() {
 	  
     <Router>
     <div className="App">
-		<nav>
-			<button onClick={()=>handleClick('en')}>
-				English
-			</button>
-			<button onClick={()=>handleClick('sp')}>
-				Espanol
-			</button>
-		</nav>
 	  <Switch>
       <Route exact path='/'>
-							<Home />
+							<Home handleClick={handleClick}/>
 					</Route>
       <Route path='/Prices'>
-			<Prices />
+			<Prices handleClick={handleClick}/>
 			</Route>
       <Route path='/Faqs'>
-					<Faqs />
+					<Faqs handleClick={handleClick}/>
 			</Route>
       <Route path='/ContactUs'>
-					<Contactus />
+					<Contactus handleClick={handleClick}/>
 			</Route>
       <Route path='/BookNow'>
-					<Booknow />
+					<Booknow handleClick={handleClick}/>
 			</Route>
       <Route path='/checkout'>
 							<Checkout />

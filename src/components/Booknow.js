@@ -1,12 +1,21 @@
 import { useTranslation } from "react-i18next";
-const Booknow =()=> {
+const Booknow =(props)=> {
 	const { t } = useTranslation();
     return (
         <div id="page-wrapper">
 
 			{/* <!-- Header --> */}
 				<section id="header">
-
+				<nav>
+					<button onClick={()=>props.handleClick('en')}>
+						English
+					</button>
+					<button onClick={()=>props.handleClick('sp')}>
+						Espanol
+					</button>
+				</nav>
+				<br></br>
+				<br></br>
 					{/* <!-- Logo --> */}
 						<h1><a href="index.html">Brave & Free Miami Tour Bus</a></h1>
 
