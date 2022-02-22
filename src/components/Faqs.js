@@ -1,3 +1,4 @@
+import React from "react"; 
 import { useTranslation } from "react-i18next";
 import './Faqs.css'
 const Faqs =(props)=> {
