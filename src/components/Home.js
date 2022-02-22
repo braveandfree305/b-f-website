@@ -1,54 +1,35 @@
-
-import React from "react"; 
-import { useTranslation } from "react-i18next";
-
-const Home =(props)=> {
-
-	const { t } = useTranslation();
-
+const Home =()=> {
 return (
     <div id="page-wrapper">
 			{/* <!-- Header --> */}
-			
 				<section id="header">
 
 					{/* <!-- Logo --> */}
-		<nav>
-			<button onClick={()=>props.handleClick('en')}>
-				English
-			</button>
-			<button onClick={()=>props.handleClick('sp')}>
-				Espanol
-			</button>
-		</nav>
-		<br></br>
-		<br></br>
-		{t('Welcome to React')}
 						<h1><a href="/">Brave & Free Miami Tour Bus</a></h1>
 
 					{/* <!-- Nav --> */}
 						<nav id="nav">
 							<ul>
-								<li className="current"><a href="/">{t('Nav1.1')}</a></li>
+								<li className="current"><a href="/">Home</a></li>
 								<li>
-									<a href="/Prices">{t('Nav2.1')}</a>
+									<a href="/Prices">Prices</a>
 								</li>
-								<li><a href="/Faqs">{t('Nav3.1')}</a></li>
-								<li><a href="/ContactUs">{t('Nav4.1')}</a></li>
-								<li><a href="/BookNow">{t('Nav5.1')}</a></li>
+								<li><a href="/Faqs">FAQ's</a></li>
+								<li><a href="/ContactUs">Contact Us</a></li>
+								<li><a href="/BookNow">Book Now</a></li>
 								
 							</ul>
 							
 						</nav>
 						<br></br>
-						<h6>(786) 332-9320</h6>
+						<h6>(786) 260-3832</h6>
 					{/* <!-- Banner --> */}
 						<section id="banner">
 							<header>
-								<h2>{t('Paragraph.1')}</h2>
-								<p>{t('p1.1')}</p>
-								<p>{t('p2.1')}</p>
-								<p>{t('p3.1')}</p>
+								<h2>Come Tour With Us And Explore The Hottest Places In Miami !</h2>
+								<p>Open Air party bus. Our buses feature seating for up to 30 guests.</p>
+								<p>Equipped with a bar, booming sound system, LED Dance Floor and the best way to experience Miami.</p>
+								<p>We can accommodate your tour in any way you wish. Get ready to see and be seen!</p>
 								<p>Downtown, Brickell, Wynwood, Little Havana, Doral, Bayside, Coconut Grove and Coral Gables.</p>
 							</header>
 						</section>
@@ -60,28 +41,29 @@ return (
 									<section className="first">
 										{/* <i className="icon solid featured fa-cog"></i> */}
 										<header>
-											<h2>{t('single.1')}</h2>
+											<h2>Single Rider Tickets</h2>
 										</header>
 										<h3>$55 + FEES</h3>
-										<h6>{t('s1.1')}</h6>
+										<h6>This is an individual seat purchase. This is a public tour so you may or may not be placed with others from another party</h6>
 										<p>2 HOUR TOUR</p>
-										<p>{t('byob.1')}</p>
+										<p>BYOB (NO GLASS ALLOWED)</p>
 										<p>COOLER + ICE + DJ ON BOARD</p>
 										<p></p>
 										<p>
 										UP TO 15 PAX
 										(Any additional pax $35)</p>
+										<p>PRIVATE RENTAL</p>
 									</section>
 								</div>
 								<div className="col-4 col-12-medium">
 									<section className="middle">
 										{/* <i className="icon solid featured alt fa-bolt"></i> */}
 										<header>
-											<h2>{t('group.1')}</h2>
+											<h2>Group</h2>
 										</header>
 										<h3>$525 + FEES</h3>
 										<p>2 HOUR TOUR</p>
-										<p>{t('byob.1')}</p>
+										<p>BYOB (NO GLASS ALLOWED)</p>
 										<p>COOLER + ICE + DJ ON BOARD</p>
 										<p></p>
 										<p>
@@ -97,9 +79,9 @@ return (
 											<h2>Happy Hour</h2>
 										</header>
 										<h3>$475 + FEES</h3>
-										<h6>{t('h1.1')}</h6>
+										<h6>Only available at certain dates and times</h6>
 										<p>2 HOUR TOUR</p>
-										<p>{t('byob.1')}</p>
+										<p>BYOB (NO GLASS ALLOWED)</p>
 										<p>COOLER + ICE + DJ ON BOARD</p>
 										<p></p>
 										<p>
@@ -111,8 +93,8 @@ return (
 							</div>
 							<footer>
 								<ul className="actions">
-									<li><a href="/BookNow" className="button large">{t('Nav5.1')}</a></li>
-									<li><a href="/faqs" className="button alt large">{t('learn.1')}</a></li>
+									<li><a href="/BookNow" className="button large">Book Now</a></li>
+									<li><a href="/faqs" className="button alt large">Learn More</a></li>
 								</ul>
 							</footer>
 						</section>
@@ -140,7 +122,7 @@ return (
 													
 													<footer>
 														<ul className="actions">
-															<li><a href="/Faqs" className="button alt">{t('learn.1')}</a></li>
+															<li><a href="/Faqs" className="button alt">Find out more</a></li>
 														</ul>
 													</footer>
 												</section>
@@ -154,7 +136,7 @@ return (
 													
 													<footer>
 														<ul className="actions">
-															<li><a href="/Faqs" className="button alt">{t('learn.1')}</a></li>
+															<li><a href="/Faqs" className="button alt">Find out more</a></li>
 														</ul>
 													</footer>
 												</section>
@@ -168,7 +150,7 @@ return (
 							
 													<footer>
 														<ul className="actions">
-															<li><a href="/Faqs" className="button alt">{t('learn.1')}</a></li>
+															<li><a href="/Faqs" className="button alt">Find out more</a></li>
 														</ul>
 													</footer>
 												</section>
@@ -216,7 +198,7 @@ return (
 					<div className="container">
 								<section>
 									<header>
-										<h2>{t('visit.1')}</h2>
+										<h2>Visit Us On Social Media !</h2>
 									</header>
 									<ul className="social">
 										<li><a className="icon brands fa-facebook-f" href="/Faqs"><span className="label">Facebook</span></a></li>
@@ -235,11 +217,11 @@ return (
 										</li>
 										<li>
 											<h3>Mail</h3>
-											<p><a href="/ContactUs">braveandfree305@gmail.com</a></p>
+											<p><a href="/Faqs">braveandfree1@gmail.com</a></p>
 										</li>
 										<li>
 											<h3>Phone</h3>
-											<p>(786) 332-9320</p>
+											<p>(786) 260-3832</p>
 										</li>
 									</ul>
 								</section>

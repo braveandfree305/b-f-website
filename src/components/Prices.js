@@ -1,42 +1,28 @@
-
-import React from "react"; 
-import { useTranslation } from "react-i18next";
-const Prices =(props)=> {
-
-	const { t } = useTranslation();
-
+const Prices =()=> {
     return (
         <div id="page-wrapper">
 
         {/* <!-- Header --> */}
             <section id="header">
-			<nav>
-				<button onClick={()=>props.handleClick('en')}>
-					English
-				</button>
-				<button onClick={()=>props.handleClick('sp')}>
-					Espanol
-				</button>
-			</nav>
-			<br></br>
-			<br></br>
+
                 {/* <!-- Logo --> */}
                     <h1><a href="/">Brave & Free Miami Tour Bus</a></h1>
 
                 {/* <!-- Nav --> */}
                     <nav id="nav">
                         <ul>
-                        <li><a href="/">{t('Nav1.1')}</a></li>
-								<li className="current">
-									<a href="/Prices">{t('Nav2.1')}</a>
-								</li>
-								<li><a href="/Faqs">{t('Nav3.1')}</a></li>
-								<li><a href="/ContactUs">{t('Nav4.1')}</a></li>
-								<li><a href="/BookNow">{t('Nav5.1')}</a></li>
+                        <li><a href="/">Home</a></li>
+                            <li className="current">
+                                <a href="/Prices">Prices</a>
+                                
+                            </li>
+                            <li><a href="/Faqs">FAQ's</a></li>
+                            <li><a href="/ContactUs">Contact Us</a></li>
+                            <li><a href="/BookNow">Book Now</a></li>
                         </ul>
                     </nav>
 					<br></br>
-						<h6>(786) 332-9320</h6>
+						<h6>(786) 260-3832</h6>
             </section>
 			<section id="main">
 					<div className="container">
@@ -44,25 +30,25 @@ const Prices =(props)=> {
 						{/* <!-- Content --> */}
 							<article className="box post">
 								<header>
-									<h2>{t('Nav5.1')}</h2>
+									<h2>Book Now</h2>
 									<p>Prices</p>
 								</header>
-								<h2>{t('single.1')}</h2>
+								<h2>Single Rider Tickets</h2>
 										
 										<h3>$55 + FEES</h3>
-										<h6>{t('s1.1')}</h6>
+										<h6>This is an individual seat purchase. This is a public tour so you may or may not be placed with others from another party</h6>
 										<p>2 HOUR TOUR</p>
-										<p>{t('byob.1')}</p>
+										<p>BYOB (NO GLASS ALLOWED)</p>
 										<p>COOLER + ICE + DJ ON BOARD</p>
 										<p></p>
 										<p>
 										UP TO 15 PAX
 										(Any additional pax $35)</p>
 										<p>PRIVATE RENTAL</p>
-										<h2>{t('group.1')}</h2>
+										<h2>Group</h2>
 										<h3>$525 + FEES</h3>
 										<p>2 HOUR TOUR</p>
-										<p>{t('byob.1')}</p>
+										<p>BYOB (NO GLASS ALLOWED)</p>
 										<p>COOLER + ICE + DJ ON BOARD</p>
 										<p></p>
 										<p>
@@ -72,9 +58,9 @@ const Prices =(props)=> {
 										<h2>Happy Hour</h2>
 										
 										<h3>$475 + FEES</h3>
-										<h6>{t('h1.1')}</h6>
+										<h6>Only available at certain dates and times</h6>
 										<p>2 HOUR TOUR</p>
-										<p>{t('byob.1')}</p>
+										<p>BYOB (NO GLASS ALLOWED)</p>
 										<p>COOLER + ICE + DJ ON BOARD</p>
 										<p></p>
 										<p>
@@ -93,7 +79,7 @@ const Prices =(props)=> {
 					<div className="container">
 								<section>
 									<header>
-									<h2>{t('visit.1')}</h2>
+										<h2>Visit Us On Social Media !</h2>
 									</header>
 									<ul className="social">
 										<li><a className="icon brands fa-facebook-f" href="/Faqs"><span className="label">Facebook</span></a></li>
@@ -112,11 +98,11 @@ const Prices =(props)=> {
 										</li>
 										<li>
 											<h3>Mail</h3>
-											<p><a href="/ContactUs">braveandfree305@gmail.com</a></p>
+											<p><a href="/Faqs">braveandfree1@gmail.com</a></p>
 										</li>
 										<li>
 											<h3>Phone</h3>
-											<p>(786) 332-9320</p>
+											<p>(786) 260-3832</p>
 										</li>
 									</ul>
 								</section>
