@@ -1,5 +1,5 @@
-import './Faqs.css'
 import { useTranslation } from "react-i18next";
+import './Faqs.css'
 const Faqs =(props)=> {
   const { t } = useTranslation();
     return (

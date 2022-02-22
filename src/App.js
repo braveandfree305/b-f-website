@@ -10,10 +10,9 @@ import Booknow from './components/Booknow';
 import Prices from "./components/Prices";
 import Faqs from "./components/Faqs";
 import Contactus from "./components/Contactus";
-import './App.css';
 import { useTranslation } from "react-i18next";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import './App.css';
 function App() {
 	const { i18n } = useTranslation();
 

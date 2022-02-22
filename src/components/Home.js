@@ -21,6 +21,7 @@ return (
 		</nav>
 		<br></br>
 		<br></br>
+		{t('Welcome to React')}
 						<h1><a href="/">Brave & Free Miami Tour Bus</a></h1>
 
 					{/* <!-- Nav --> */}
