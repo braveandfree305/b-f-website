@@ -10,36 +10,45 @@ import Booknow from './components/Booknow';
 import Prices from "./components/Prices";
 import Faqs from "./components/Faqs";
 import Contactus from "./components/Contactus";
-import { useTranslation } from "react-i18next";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-function App() {
-	const { i18n } = useTranslation();
+// import { useTranslation } from "react-i18next";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-	function handleClick(lang){
-		i18n.changeLanguage(lang);
-	}
+function App() {
+	// const { i18n } = useTranslation();
+
+	// function handleClick(lang){
+	// 	i18n.changeLanguage(lang);
+	// }
 
 
   return (
 	  
     <Router>
     <div className="App">
+		{/* <nav>
+			<button onClick={()=>handleClick('en')}>
+				English
+			</button>
+			<button onClick={()=>handleClick('sp')}>
+				Espanol
+			</button>
+		</nav> */}
 	  <Switch>
       <Route exact path='/'>
-							<Home handleClick={handleClick}/>
+							<Home />
 					</Route>
       <Route path='/Prices'>
-			<Prices handleClick={handleClick}/>
+			<Prices />
 			</Route>
       <Route path='/Faqs'>
-					<Faqs handleClick={handleClick}/>
+					<Faqs />
 			</Route>
       <Route path='/ContactUs'>
-					<Contactus handleClick={handleClick}/>
+					<Contactus />
 			</Route>
       <Route path='/BookNow'>
-					<Booknow handleClick={handleClick}/>
+					<Booknow />
 			</Route>
       <Route path='/checkout'>
 							<Checkout />
