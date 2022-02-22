@@ -1,4 +1,6 @@
+import { useTranslation } from "react-i18next";
 const Booknow =()=> {
+	const { t } = useTranslation();
     return (
         <div id="page-wrapper">
 
@@ -11,25 +13,24 @@ const Booknow =()=> {
 					{/* <!-- Nav --> */}
 						<nav id="nav">
 							<ul>
-                            <li><a href="/">Home</a></li>
+                            <li><a href="/">{t('Nav1.1')}</a></li>
 								<li>
-									<a href="/Prices">Prices</a>
-								
+									<a href="/Prices">{t('Nav2.1')}</a>
 								</li>
-								<li><a href="/Faqs">FAQ's</a></li>
-								<li><a href="/ContactUs">Contact Us</a></li>
-								<li className="current"><a href="/BookNow">Book Now</a></li>
+								<li><a href="/Faqs">{t('Nav3.1')}</a></li>
+								<li><a href="/ContactUs">{t('Nav4.1')}</a></li>
+								<li className="current"><a href="/BookNow">{t('Nav5.1')}</a></li>
 							</ul>
 						</nav>
 						<br></br>
-						<h6>(786) 260-3832</h6>
+						<h6>(786) 332-9320</h6>
 				</section>
 				<footer>
 								<ul className="actions">
-									<li><a href="/Checkout" className="button large">Individual Ticket: $55</a></li>
-									<li><a href="/groupCheckout" className="button large">Group Purchase: $525</a></li>
-									<li><a href="/addOnCheckout" className="button large">Individual add on for group(15 people) Ticket: $35</a></li>
-									<li><a href="/ContactUs" className="button large">Please Contact Us For Happy Hour</a></li>
+									<li><a href="/Checkout" className="button large">{t('single.1')}: $55</a></li>
+									<li><a href="/groupCheckout" className="button large">{t('group.1')}: $525</a></li>
+									<li><a href="/addOnCheckout" className="button large">{t('individual.1')}: $35</a></li>
+									<li><a href="/ContactUs" className="button large">Contact Us For Happy Hour</a></li>
 								</ul>
 							</footer>
 
@@ -38,7 +39,7 @@ const Booknow =()=> {
 					<div className="container">
 								<section>
 									<header>
-										<h2>Visit Us On Social Media !</h2>
+									<h2>{t('visit.1')}</h2>
 									</header>
 									<ul className="social">
 										<li><a className="icon brands fa-facebook-f" href="/Faqs"><span className="label">Facebook</span></a></li>
@@ -57,11 +58,11 @@ const Booknow =()=> {
 										</li>
 										<li>
 											<h3>Mail</h3>
-											<p><a href="/Faqs">braveandfree1@gmail.com</a></p>
+											<p><a href="/ContactUs">braveandfree305@gmail.com</a></p>
 										</li>
 										<li>
 											<h3>Phone</h3>
-											<p>(786) 260-3832</p>
+											<p>(786) 332-9320</p>
 										</li>
 									</ul>
 								</section>

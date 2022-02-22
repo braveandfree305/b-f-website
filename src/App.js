@@ -11,13 +11,29 @@ import Prices from "./components/Prices";
 import Faqs from "./components/Faqs";
 import Contactus from "./components/Contactus";
 import './App.css';
+import { useTranslation } from "react-i18next";
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
+	const { i18n } = useTranslation();
+
+	function handleClick(lang){
+		i18n.changeLanguage(lang);
+	}
+
+
   return (
-    
+	  
     <Router>
     <div className="App">
-      <Switch>
+		<nav>
+			<button onClick={()=>handleClick('en')}>
+				English
+			</button>
+			<button onClick={()=>handleClick('sp')}>
+				Espanol
+			</button>
+		</nav>
+	  <Switch>
       <Route exact path='/'>
 							<Home />
 					</Route>

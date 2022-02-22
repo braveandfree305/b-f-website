@@ -1,0 +1,93 @@
+{
+    "Nav1": {
+        "1": "Home"
+    },
+    "Nav2":{
+        "1":"Precios"
+    },
+    "Nav3":{
+        "1":"Preguntas"
+    },
+    "Nav4":{
+        "1":"Contacto"
+    },
+    "Nav5":{
+        "1":"Book Ahora"
+    },
+    "Paragraph":{
+        "1":"¡Venga de gira con nosotros y explore los lugares más populares de Miami!"
+    },
+    "p1":{
+        "1":"Autobús de fiesta al aire libre. Nuestros autobuses cuentan con asientos para hasta 30 personas."
+    },
+    "p2":{
+        "1":"Equipado con un bar, sistema de sonido en auge, pista de baile LED y la mejor manera de experimentar Miami."
+    },
+    "p3":{
+        "1":"Podemos acomodar su recorrido de la manera que desee. ¡Prepárate para ver y ser visto!"
+    },
+    "single":{
+        "1":"Entradas para un solo pasajero"
+    },
+    "s1":{
+        "1":"Esta es una compra de asiento individual. Este es un tour público, por lo que puede o no ser colocado con otros de otra parte."
+    },
+    "group":{
+        "1":"Paquete De Grupo"
+    },
+    "byob":{
+        "1":"Trae Tu Propia Bebida"
+    },
+    "h1":{
+        "1":"Solo disponible en ciertas fechas y horarios"
+    },
+    "learn":{
+        "1":"Aprende Mas"
+    },
+    "visit":{
+        "1":"¡Visítenos en las redes sociales!"
+    },
+    "message":{
+        "1":"Déjanos Un Mensaje!"
+    },
+    "individual":{
+        "1":"Complemento individual para grupo (15 personas) Entrada"
+    },
+    "q1":{
+        "1":"¿Se nos permite tomar bebidas alcohólicas en el autobús?"
+    },"q1a":{
+        "1":"¡Ciertamente! Dado que usted y todos sus invitados tienen la edad legal para beber. El autobús es estrictamente BYOB o (Bring Your Own Beverage). No vendemos bebidas de ningún tipo en el autobús. deberá traer las bebidas que planea consumir antes de que salga su recorrido."
+    },"q2":{
+        "1":"¿Cuántas personas caben en el autobús?"
+    },"q2a":{
+        "1":"Un mínimo de 15 para particulares con un máximo de 30"
+    },"q3":{
+        "1":"¿Dónde está el lugar de recogida?"
+    },"q3a":{
+        "1":"Podemos recoger en cualquier lugar dentro de las áreas de Downtown Miami, Brickell, South Beach, Wynwood, Little Havana o Coral Gables. Tal vez le gustaría que lo recogieran después de su comida de cumpleaños o justo afuera de la puerta de su casa, eso no es un problema. Para las recogidas fuera de estas áreas, se agregará un cargo adicional."
+    },"q4":{
+        "1":"¿Cuánto cuesta un tour de fiesta?"
+    },"q4a":{
+        "1":"$35 por pasajero (Grupos de 15 Mínimo 30 Max)"
+    },"q5":{
+        "1":"¿Hay restricciones de edad?"
+    },"q5a":{
+        "1":"Sí, debe tener la edad legal para beber (21 años). Los ciclistas más jóvenes también son bienvenidos, pero deben estar acompañados por un tutor legal."
+    },"q6":{
+        "1":"¿Estamos de fiesta principalmente en el autobús o paramos en diferentes bares?"
+    },"q6a":{
+        "1":"Nuestro autobús está hecho para divertirse en él. Aparte de hacer una parada para un descanso en el baño y una bebida rápida en un bar, la fiesta es en el autobús."
+    },"q7":{
+        "1":"¿Estamos de fiesta principalmente en el autobús o paramos en diferentes bares?"
+    },"q7a":{
+        "1":"Nuestro autobús está hecho para divertirse en él. Aparte de hacer una parada para un descanso en el baño y una bebida rápida en un bar, la fiesta es en el autobús."
+    },"q8":{
+        "1":"¿Se requiere el pago completo para reservar?"
+    },"q8a":{
+        "1":"Puedes reservar de dos maneras. La opción más rápida es reservar directamente a través de nuestro sitio web y pagar todo por adelantado. O bien, puede llamar a nuestras oficinas donde tomamos un depósito de $ 200 para asegurar la fecha y el pago final el día del evento."
+    },"q9":{
+        "1":"¿Cuál es la política de cancelación?"
+    },"q9a":{
+        "1":"Si el servicio solicitado ya no es necesario, el aviso por escrito (correo electrónico a reservations@rumbatoursmiami.com) debe darse 45 días hábiles o más antes de la fecha del evento para que se reembolse el depósito completo. Si se da menos de 45 días de aviso, el cliente es responsable de la mitad del total estimado adeudado. Si se da menos de 14 días de aviso, el cliente es responsable de 2/3 del total, si se da menos de 3 días de aviso por escrito, el cliente es responsable del costo total estimado."
+    }
+}
