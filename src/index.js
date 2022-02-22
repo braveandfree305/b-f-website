@@ -27,7 +27,7 @@ i18n
       caches: ['cookies'],
     },
     backend: {
-      loadPath: '/locales/{{lng}}/translation.json',
+      loadPath: '../public/locales/{{lng}}/translation.json',
     },
     interpolation: {
       escapeValue: false // react already safes from xss => https://www.i18next.com/translation-function/interpolation#unescape
