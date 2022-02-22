@@ -25,7 +25,7 @@ const Contactus =(props)=> {
 						English
 					</button>
 					<button onClick={()=>props.handleClick('sp')}>
-						Espanol
+						Espano
 					</button>
 				</nav>
 				<br></br>
