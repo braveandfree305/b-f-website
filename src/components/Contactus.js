@@ -34,7 +34,7 @@ const Contactus =()=> {
 							</ul>
 						</nav>
 						<br></br>
-						<h6>(786) 260-3832</h6>
+						<h6>(786) 258-8387</h6>
 				</section>
 
 				<section id="main">
@@ -100,7 +100,7 @@ const Contactus =()=> {
 										</li>
 										<li>
 											<h3>Phone</h3>
-											<p>(786) 260-3832</p>
+											<p>(786) 258-8387</p>
 										</li>
 									</ul>
 								</section>
