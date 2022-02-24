@@ -98,7 +98,7 @@ const Prices =()=> {
 										</li>
 										<li>
 											<h3>Mail</h3>
-											<p><a href="/Faqs">braveandfree1@gmail.com</a></p>
+											<p><a href="/Faqs">braveandfree305@gmail.com</a></p>
 										</li>
 										<li>
 											<h3>Phone</h3>

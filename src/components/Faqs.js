@@ -146,7 +146,7 @@ The bus is strictly BYOB or (Bring Your Own Beverage). We do not sell any bevera
     </h2>
     <div id="collapseNine" className="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
       <div className="accordion-body">
-	  If the requested service is no longer needed, the written notice (email to reservations@rumbatoursmiami.com) is to be given 45 business days or more before the event date for the full deposit to be refunded. If less than 45 days’ notice is given the customer is responsible for half of the estimated total due. If less than 14 days’ notice is given the customer is responsible for 2/3rd of the total, if less than 3 days written notice is given the customer is responsible for the total estimated cost.
+	  If the requested service is no longer needed, the written notice (email to braveandfree305@gmail.com) is to be given 45 business days or more before the event date for the full deposit to be refunded. If less than 45 days’ notice is given the customer is responsible for half of the estimated total due. If less than 14 days’ notice is given the customer is responsible for 2/3rd of the total, if less than 3 days written notice is given the customer is responsible for the total estimated cost.
       </div>
     </div>
   </div>
@@ -180,7 +180,7 @@ The bus is strictly BYOB or (Bring Your Own Beverage). We do not sell any bevera
 										</li>
 										<li>
 											<h3>Mail</h3>
-											<p><a href="/Faqs">braveandfree1@gmail.com</a></p>
+											<p><a href="/Faqs">braveandfree305@gmail.com</a></p>
 										</li>
 										<li>
 											<h3>Phone</h3>
