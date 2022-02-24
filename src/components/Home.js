@@ -59,7 +59,7 @@ return (
 									<section className="middle">
 										{/* <i className="icon solid featured alt fa-bolt"></i> */}
 										<header>
-											<h2>Group</h2>
+											<h2>Group Package</h2>
 										</header>
 										<h3>$525 + FEES</h3>
 										<p>2 HOUR TOUR</p>
@@ -76,7 +76,7 @@ return (
 									<section className="last">
 										{/* <i className="icon solid featured alt2 fa-star"></i> */}
 										<header>
-											<h2>Happy Hour</h2>
+											<h2>Happy Hour Package</h2>
 										</header>
 										<h3>$475 + FEES</h3>
 										<h6>Only available at certain dates and times</h6>

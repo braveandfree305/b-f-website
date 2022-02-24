@@ -33,44 +33,69 @@ const Prices =()=> {
 									<h2>Book Now</h2>
 									<p>Prices</p>
 								</header>
-								<h2>Single Rider Tickets</h2>
-										
-										<h3>$55 + FEES</h3>
-										<h6>This is an individual seat purchase. This is a public tour so you may or may not be placed with others from another party</h6>
-										<p>2 HOUR TOUR</p>
-										<p>BYOB (NO GLASS ALLOWED)</p>
-										<p>COOLER + ICE + DJ ON BOARD</p>
-										<p></p>
-										<p>
-										UP TO 15 PAX
-										(Any additional pax $35)</p>
-										<p>PRIVATE RENTAL</p>
-										<h2>Group</h2>
+										<h2>Group Package (15 passengers)</h2>
 										<h3>$525 + FEES</h3>
 										<p>2 HOUR TOUR</p>
 										<p>BYOB (NO GLASS ALLOWED)</p>
 										<p>COOLER + ICE + DJ ON BOARD</p>
 										<p></p>
 										<p>
-										UP TO 15 PAX
-										(Any additional pax $35)</p>
+										UP TO 15 PEOPLE
+										(Any additional passangers $35)</p>
 										<p>PRIVATE RENTAL</p>
-										<h2>Happy Hour</h2>
-										
+										<h2>Happy Hour Package (15 passangers)</h2>
 										<h3>$475 + FEES</h3>
 										<h6>Only available at certain dates and times</h6>
 										<p>2 HOUR TOUR</p>
 										<p>BYOB (NO GLASS ALLOWED)</p>
 										<p>COOLER + ICE + DJ ON BOARD</p>
 										<p></p>
-										<p>
-										UP TO 15 PAX
-										(Any additional pax $35)</p>
 										<p>PRIVATE RENTAL</p>
+
+										<h2>Individual Add On Ticket</h2>
+										<h3>$35 + FEES</h3>
+										<h6>This is an individual seat purchase. Intended for when a group package has reached its 15 passenger max</h6>
+										<p>2 HOUR TOUR</p>
+										<p>BYOB (NO GLASS ALLOWED)</p>
+										<p>COOLER + ICE + DJ ON BOARD</p>
+										<p></p>
+
+										<h2>Single Rider Ticket</h2>
+										<h3>$55 + FEES</h3>
+										<h6>This is an individual seat purchase. This is a public tour so you may or may not be placed with others from another party</h6>
+										<p>2 HOUR TOUR</p>
+										<p>BYOB (NO GLASS ALLOWED)</p>
+										<p>COOLER + ICE + DJ ON BOARD</p>
+										<p></p>
 								<section>	
 								</section>
 							</article>
-							<a href="/Faqs" className="image featured"><img src="images/pic01.jpg" alt="" /></a>
+							<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img src="images/pic02.jpg" class="d-block w-100" alt="" />
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="images/pic03.jpg" class="d-block w-100" alt="" />
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="images/pic04.jpg" class="d-block w-100" alt="" />
+                                </div>
+                              </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+</div>
 					</div>
 				</section>
 
