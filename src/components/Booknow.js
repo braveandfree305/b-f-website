@@ -1,3 +1,5 @@
+import styled from "styled-components";
+
 const Booknow =()=> {
     return (
         <div id="page-wrapper">
@@ -31,6 +33,10 @@ const Booknow =()=> {
 									<li><a href="/addOnCheckout" className="button large">Individual add on for group(15 people) Ticket: $35</a></li>
 									<li><a href="/ContactUs" className="button large">Please Contact Us For Happy Hour</a></li>
 								</ul>
+
+								<Calendly className="calendly-inline-widget" data-url="https://calendly.com/braveandfree305/group-package" ></Calendly>
+								
+								
 							</footer>
 
 
@@ -83,4 +89,8 @@ const Booknow =()=> {
     )
 }
 
+const Calendly = styled.div`
+min-width:320px;
+height:630px;
+`
 export default Booknow;
