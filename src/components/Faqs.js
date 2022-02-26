@@ -3,13 +3,10 @@ const Faqs =()=> {
     return (
         <div id="page-wrapper">
 
-			{/* <!-- Header --> */}
 				<section id="header">
 
-					{/* <!-- Logo --> */}
 						<h1><a href="/">Brave & Free Miami Tour Bus</a></h1>
 
-					{/* <!-- Nav --> */}
 						<nav id="nav">
 							<ul>
                             <li><a href="/">Home</a></li>
@@ -26,13 +23,10 @@ const Faqs =()=> {
 						<h6>(786) 258-8387</h6>
 				</section>
 
-			{/* <!-- Main --> */}
 				<section id="main">
 					<div className="container">
 						<div className="row">
 							
-
-								{/* <!-- Content --> */}
 								<h1 className = 'title'>FAQS</h1>
             <div className="accordion" id="accordionExample">
   <div className="accordion-item">
@@ -182,7 +176,6 @@ The bus is strictly BYOB or (Bring Your Own Beverage). We do not sell any bevera
 					</div>
 				</section>
 
-			{/* <!-- Footer --> */}
 			<section id="footer">
 					<div className="container">
 								<section>
@@ -217,15 +210,11 @@ The bus is strictly BYOB or (Bring Your Own Beverage). We do not sell any bevera
 							</div>
 							<div className="col-12">
 
-								{/* <!-- Copyright --> */}
 									<div id="copyright">
 										<ul className="links">
 											<li>&copy; Untitled. All rights reserved.</li>
 										</ul>
 									</div>
-
-							
-						
 					</div>
 				</section>
 		</div>

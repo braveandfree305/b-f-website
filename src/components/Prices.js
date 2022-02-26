@@ -2,13 +2,10 @@ const Prices =()=> {
     return (
         <div id="page-wrapper">
 
-        {/* <!-- Header --> */}
             <section id="header">
 
-                {/* <!-- Logo --> */}
                     <h1><a href="/">Brave & Free Miami Tour Bus</a></h1>
 
-                {/* <!-- Nav --> */}
                     <nav id="nav">
                         <ul>
                         <li><a href="/">Home</a></li>
@@ -27,10 +24,9 @@ const Prices =()=> {
 			<section id="main">
 					<div className="container">
 
-						{/* <!-- Content --> */}
 							<article className="box post">
 								<header>
-									<h2>Book Now</h2>
+								<h4><a href="/BookNow">Book Now</a></h4>
 									<p>Prices</p>
 								</header>
 										<h2>Group Package (15 passengers)</h2>
@@ -58,15 +54,7 @@ const Prices =()=> {
 										<p>2 HOUR TOUR</p>
 										<p>BYOB (NO GLASS ALLOWED)</p>
 										<p>COOLER + ICE + DJ ON BOARD</p>
-										<p></p>
-
-										<h2>Single Rider Ticket</h2>
-										<h3>$55 + FEES</h3>
-										<h6>This is an individual seat purchase. This is a public tour so you may or may not be placed with others from another party</h6>
-										<p>2 HOUR TOUR</p>
-										<p>BYOB (NO GLASS ALLOWED)</p>
-										<p>COOLER + ICE + DJ ON BOARD</p>
-										<p></p>
+										<p></p>										
 								<section>	
 								</section>
 							</article>

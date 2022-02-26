@@ -2220,7 +2220,7 @@ ul.social li a.fa-google-plus:hover {
 }
 
 #nav > ul > li.current > a {
-  background: purple;
+  background: #800080;
   color: #fff !important;
   font-weight: 700;
 }

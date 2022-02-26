@@ -41,17 +41,13 @@ return (
 									<section className="first">
 										{/* <i className="icon solid featured fa-cog"></i> */}
 										<header>
-											<h2>Single Rider Tickets</h2>
+											<h2>Extra Rider Ticket</h2>
 										</header>
-										<h3>$55 + FEES</h3>
-										<h6>This is an individual seat purchase. This is a public tour so you may or may not be placed with others from another party</h6>
+										<h3>$35 + FEES</h3>
+										<h6>This is an individual seat purchase. Intended for when a group package has been purchased</h6>
 										<p>2 HOUR TOUR</p>
 										<p>BYOB (NO GLASS ALLOWED)</p>
 										<p>COOLER + ICE + DJ ON BOARD</p>
-										<p></p>
-										<p>
-										UP TO 15 PAX
-										(Any additional pax $35)</p>
 										<p>PRIVATE RENTAL</p>
 									</section>
 								</div>
@@ -60,15 +56,13 @@ return (
 										{/* <i className="icon solid featured alt fa-bolt"></i> */}
 										<header>
 											<h2>Group Package</h2>
+											<h2>(15 Passengers)</h2>
 										</header>
 										<h3>$525 + FEES</h3>
 										<p>2 HOUR TOUR</p>
 										<p>BYOB (NO GLASS ALLOWED)</p>
 										<p>COOLER + ICE + DJ ON BOARD</p>
 										<p></p>
-										<p>
-										UP TO 15 PAX
-										(Any additional pax $35)</p>
 										<p>PRIVATE RENTAL</p>
 									</section>
 								</div>
@@ -77,16 +71,13 @@ return (
 										{/* <i className="icon solid featured alt2 fa-star"></i> */}
 										<header>
 											<h2>Happy Hour Package</h2>
+											<h2>(15 Passengers)</h2>
 										</header>
 										<h3>$475 + FEES</h3>
 										<h6>Only available at certain dates and times</h6>
 										<p>2 HOUR TOUR</p>
 										<p>BYOB (NO GLASS ALLOWED)</p>
 										<p>COOLER + ICE + DJ ON BOARD</p>
-										<p></p>
-										<p>
-										UP TO 15 PAX
-										(Any additional pax $35)</p>
 										<p>PRIVATE RENTAL</p>
 									</section>
 								</div>
@@ -101,13 +92,11 @@ return (
 
 				</section>
 
-			{/* <!-- Main --> */}
 				<section id="main">
 					<div className="container">
 						<div className="row">
 							<div className="col-12">
 
-								{/* <!-- Portfolio --> */}
 									<section>
 										<header className="major">
 											<h2>Explore Our Bus</h2>
@@ -117,7 +106,7 @@ return (
 												<section className="box">
 													<a href="/Faqs" className="image featured"><img src="images/pic02.jpg" alt="" /></a>
 													<header>
-														<h3>$35 per passenger (Groups of 15 Minimum 30 Max)</h3>
+														<h3>$35 per extra passenger (Group Package required before buying individual ticket)</h3>
 													</header>
 													
 													<footer>
@@ -157,7 +146,6 @@ return (
 											</div>
 										</div>
 									</section>
-
 							</div>
 							<div className="col-12">
 
@@ -187,13 +175,10 @@ return (
 											</div>
 										</div>
 									</section>
-
 							</div>
 						</div>
 					</div>
 				</section>
-
-			{/* <!-- Footer --> */}
 				<section id="footer">
 					<div className="container">
 								<section>
@@ -227,8 +212,6 @@ return (
 								</section>
 							</div>
 							<div className="col-12">
-
-								{/* <!-- Copyright --> */}
 									<div id="copyright">
 										<ul className="links">
 											<li>&copy; All rights reserved.</li>

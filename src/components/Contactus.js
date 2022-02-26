@@ -72,7 +72,6 @@ const Contactus =()=> {
 						</div>
 				</section>
 
-			{/* <!-- Footer --> */}
 			<section id="footer">
 					<div className="container">
 								<section>
@@ -107,7 +106,6 @@ const Contactus =()=> {
 							</div>
 							<div className="col-12">
 
-								{/* <!-- Copyright --> */}
 									<div id="copyright">
 										<ul className="links">
 											<li>&copy; Untitled. All rights reserved.</li>
