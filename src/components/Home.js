@@ -1,3 +1,4 @@
+import styled from "styled-components";
 const Home =()=> {
 return (
     <div id="page-wrapper">
@@ -23,6 +24,8 @@ return (
 						</nav>
 						<br></br>
 						<h6>(786) 258-8387</h6>
+						<br></br>
+						<BookLink href="/BookNow">Book Now</BookLink>
 					{/* <!-- Banner --> */}
 						<section id="banner">
 							<header>
@@ -223,5 +226,13 @@ return (
 		</div>
 )
 }
+
+const BookLink = styled.a`
+text-decoration: none;
+color:purple;
+border: solid 4px purple;
+padding: 5px;
+display:inline
+`
 
 export default Home;

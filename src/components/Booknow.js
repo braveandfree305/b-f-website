@@ -26,13 +26,15 @@ const Booknow =()=> {
 				<footer>
 								<ul className="actions">									
 									<li><a href="https://buy.stripe.com/test_bIYaGn9pOdRi4qA000" className="button large">Individual Add On Tickets for Packages: Click Here
-									<h6>Note: This purchase is for any extra guest of a group package purchase.</h6></a>
+									<h6>Note: This purchase is for any extra guest of a package purchase.</h6></a>
+									</li>								
+									<li><a href='https://calendly.com/braveandfree305/group-package?background_color=0fffd7&primary_color=800080'  className="button large">Group Package (15 Passengers)
+									<h6>Note: Extra Guest Can Be Purchased Seperately</h6></a>
 									</li>									
+									<li><a href="https://calendly.com/braveandfree305/happy-hour?background_color=0fffd7&primary_color=800080" className="button large">Happy Hour Package(15 Passengers)
+									<h6>Note: Extra Guest Can Be Purchased Seperately</h6></a>
+									</li>																	
 								</ul>
-
-								<Calendly className="calendly-inline-widget" data-url="https://calendly.com/braveandfree305/group-package?background_color=0fffd7&primary_color=800080" ></Calendly>
-								<Calendly className="calendly-inline-widget" data-url="https://calendly.com/braveandfree305/happy-hour?background_color=0fffd7&primary_color=800080"></Calendly>
-								<Calendly className="calendly-inline-widget" data-url="https://calendly.com/braveandfree305/individual-add-on-to-group-package?background_color=0fffd7&primary_color=800080" ></Calendly>
 							</footer>
 			<section id="footer">
 					<div className="container">
@@ -78,8 +80,4 @@ const Booknow =()=> {
     )
 }
 
-const Calendly = styled.div`
-min-width:320px;
-height:630px;
-`
 export default Booknow;

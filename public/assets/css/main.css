@@ -2220,7 +2220,7 @@ ul.social li a.fa-google-plus:hover {
 }
 
 #nav > ul > li.current > a {
-  background: #800080;
+  background: rgb(128, 0, 128);
   color: #fff !important;
   font-weight: 700;
 }
@@ -3006,12 +3006,15 @@ ul.social li a.fa-google-plus:hover {
   #banner {
     padding: 6em 0;
     margin: 2em 0 0 0;
+    height:1200px
   }
 
   #banner header {
     padding: 1.5em 1em 1.5em 1em;
     display: block;
     border-radius: 0;
+    width: 100%;
+    margin-left: 0px;
   }
 
   #banner header h2 {
