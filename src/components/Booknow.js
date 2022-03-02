@@ -19,6 +19,7 @@ const Booknow =()=> {
 							</ul>
 						</nav>
 						<br></br>
+						
 						<h6>(786) 260-3832</h6>
 				</section>
 				<footer>
