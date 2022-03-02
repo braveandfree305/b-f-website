@@ -23,9 +23,9 @@ return (
 							
 						</nav>
 						<br></br>
-						<h6>(786) 258-8387</h6>
+						<h6>(786) 260-3832</h6>
 						<br></br>
-						<BookLink href="/BookNow">Book Now</BookLink>
+						<BookLink href="/BookNow">Book Now !</BookLink>
 					{/* <!-- Banner --> */}
 						<section id="banner">
 							<header>
@@ -209,7 +209,7 @@ return (
 										</li>
 										<li>
 											<h3>Phone</h3>
-											<p>(786) 258-8387</p>
+											<p>(786) 260-3832</p>
 										</li>
 									</ul>
 								</section>
@@ -230,9 +230,14 @@ return (
 const BookLink = styled.a`
 text-decoration: none;
 color:purple;
-border: solid 4px purple;
-padding: 5px;
-display:inline
+border: solid 7px purple;
+padding: 15px;
+display:inline;
+font-size: 25px;
+&:hover {
+    text-decoration: none;
+	color:purple;
+}
 `
 
 export default Home;

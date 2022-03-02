@@ -19,11 +19,11 @@ const Booknow =()=> {
 							</ul>
 						</nav>
 						<br></br>
-						<h6>(786) 258-8387</h6>
+						<h6>(786) 260-3832</h6>
 				</section>
 				<footer>
 								<ul className="actions">									
-									<li><a href="https://buy.stripe.com/test_bIYaGn9pOdRi4qA000" className="button large">Individual Add On Tickets for Packages: Click Here
+									<li><a href="https://buy.stripe.com/6oE8x19Ul87MgIobII" className="button large">Individual Add On Tickets for Packages: Click Here
 									<h6>Note: This purchase is for any extra guest of a package purchase.</h6></a>
 									</li>								
 									<li><a href='https://calendly.com/braveandfree305/group-package?background_color=0fffd7&primary_color=800080'  className="button large">Group Package (15 Passengers)
@@ -61,7 +61,7 @@ const Booknow =()=> {
 										</li>
 										<li>
 											<h3>Phone</h3>
-											<p>(786) 258-8387</p>
+											<p>(786) 260-3832</p>
 										</li>
 									</ul>
 								</section>
