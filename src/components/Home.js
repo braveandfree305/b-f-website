@@ -116,7 +116,7 @@ return (
 											<h2>(15 Passengers)</h2>
 										</header>
 										<h3>$475 + FEES</h3>
-										<h6>Only available Monday thru Thursday</h6>
+										<h6>Only available Monday through Thursday</h6>
 										<h6>Note: Any Extra Guests Can Be Purchased Seperately</h6>
 										<p>2 HOUR TOUR</p>
 										<p>BYOB (NO GLASS ALLOWED)</p>
@@ -173,11 +173,10 @@ return (
 											<div className="col-4 col-6-medium col-12-small">
 												
 													<a href="/Faqs" className="image featured"><img src="images/pic14.jpg" alt="" /></a>
-													
 												
 											</div>
 											<div className="col-4 col-6-medium col-12-small">											
-													<a href="/Faqs" className="image featured"><img src="images/pic15.jpg" alt="" /></a>											
+													<a href="/Faqs" className="image featured"><img src="images/pic15.jpg" alt="" /></a>										
 											</div>
 										</div>
 									</section>
