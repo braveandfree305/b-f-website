@@ -47,10 +47,10 @@ return (
                         </div>
                               <div className="carousel-inner">
                                 <div className="carousel-item active">
-                                  <img src="images/pic16.jpg" className="d-block w-100" alt="" />
+                                  <img src="images/pic0.jpg" className="d-block w-100" alt="" />
                                 </div>
                                 <div className="carousel-item">
-                                  <img src="images/pic14.jpg" className="d-block w-100" alt="" />
+                                  <img src="images/pic08.jpg" className="d-block w-100" alt="" />
                                 </div>
                                 <div className="carousel-item">
                                   <img src="images/pic15.jpg" className="d-block w-100" alt="" />
@@ -168,11 +168,11 @@ return (
 										</header>
 										<div className="row">
 											<div className="col-4 col-6-medium col-12-small">												
-													<a href="/Faqs" className="image featured"><img src="images/pic16.jpg" alt="" /></a>												
+													<a href="/Faqs" className="image featured"><img src="images/pic0.jpg" alt="" /></a>												
 											</div>
 											<div className="col-4 col-6-medium col-12-small">
 												
-													<a href="/Faqs" className="image featured"><img src="images/pic14.jpg" alt="" /></a>
+													<a href="/Faqs" className="image featured"><img src="images/pic08.jpg" alt="" /></a>
 												
 											</div>
 											<div className="col-4 col-6-medium col-12-small">											
