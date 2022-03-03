@@ -3,9 +3,11 @@ const Home =()=> {
 return (
     <div id="page-wrapper">
 			{/* <!-- Header --> */}
+			
 				<section id="header">
 
 					{/* <!-- Logo --> */}
+
 						<h1><a href="/">Brave & Free Miami Tour Bus</a></h1>
 
 					{/* <!-- Nav --> */}
@@ -25,9 +27,55 @@ return (
 						<br></br>
 						<h6>(786) 260-3832</h6>
 						<br></br>
+						
 						<BookLink href="/BookNow">Book Now !</BookLink>
+						
+						<section>
+						<CardWrapper>
+										
+										<header className="major">
+											<h2>Come Tour With Us And Explore The Hottest Places In Miami !</h2>
+										</header>
+												
+										<div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+                        <div className="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+						  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        </div>
+                              <div className="carousel-inner">
+                                <div className="carousel-item active">
+                                  <img src="images/pic16.jpg" className="d-block w-100" alt="" />
+                                </div>
+                                <div className="carousel-item">
+                                  <img src="images/pic14.jpg" className="d-block w-100" alt="" />
+                                </div>
+                                <div className="carousel-item">
+                                  <img src="images/pic15.jpg" className="d-block w-100" alt="" />
+                                </div>
+								<div className="carousel-item">
+                                  <img src="images/pic17.jpg" className="d-block w-100" alt="" />
+                                </div>
+								<div className="carousel-item">
+                                  <img src="images/pic18.jpg" className="d-block w-100" alt="" />
+                                </div>
+                              </div>
+                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span className="visually-hidden">Previous</span>
+                        </button>
+                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span className="visually-hidden">Next</span>
+                        </button>
+</div>						
+						</CardWrapper>	
+						</section>
+						
 					{/* <!-- Banner --> */}
-						<section id="banner">
+						<section id="banner">					
 							<header>
 								<h2>Come Tour With Us And Explore The Hottest Places In Miami !</h2>
 								<p>Open Air party bus. Our buses feature seating for up to 30 guests.</p>
@@ -41,20 +89,6 @@ return (
 						<section id="intro" className="container">
 							<div className="row">
 								<div className="col-4 col-12-medium">
-									<section className="first">
-										{/* <i className="icon solid featured fa-cog"></i> */}
-										<header>
-											<h2>Extra Rider Ticket</h2>
-										</header>
-										<h3>$35 + FEES</h3>
-										<h6>This is an individual seat purchase. Intended for when a group package has been purchased</h6>
-										<p>2 HOUR TOUR</p>
-										<p>BYOB (NO GLASS ALLOWED)</p>
-										<p>COOLER + ICE + DJ ON BOARD</p>
-										<p>PRIVATE RENTAL</p>
-									</section>
-								</div>
-								<div className="col-4 col-12-medium">
 									<section className="middle">
 										{/* <i className="icon solid featured alt fa-bolt"></i> */}
 										<header>
@@ -62,11 +96,16 @@ return (
 											<h2>(15 Passengers)</h2>
 										</header>
 										<h3>$525 + FEES</h3>
+										<h6>Note: Any Extra Guests Can Be Purchased Seperately</h6>
 										<p>2 HOUR TOUR</p>
 										<p>BYOB (NO GLASS ALLOWED)</p>
 										<p>COOLER + ICE + DJ ON BOARD</p>
+										<p>Max Passengers: 30</p>
 										<p></p>
 										<p>PRIVATE RENTAL</p>
+										<ul className="actions">
+									<li><a href='https://calendly.com/braveandfree305/group-package?background_color=0fffd7&primary_color=800080' className="button large">Book Now</a></li>									
+								</ul>	
 									</section>
 								</div>
 								<div className="col-4 col-12-medium">
@@ -77,17 +116,40 @@ return (
 											<h2>(15 Passengers)</h2>
 										</header>
 										<h3>$475 + FEES</h3>
-										<h6>Only available at certain dates and times</h6>
+										<h6>Only available Monday thru Thursday</h6>
+										<h6>Note: Any Extra Guests Can Be Purchased Seperately</h6>
 										<p>2 HOUR TOUR</p>
 										<p>BYOB (NO GLASS ALLOWED)</p>
 										<p>COOLER + ICE + DJ ON BOARD</p>
+										<p>Max Passengers: 30</p>
 										<p>PRIVATE RENTAL</p>
+										
+								<ul className="actions">
+									<li><a href="https://calendly.com/braveandfree305/happy-hour?background_color=0fffd7&primary_color=800080" className="button large">Book Now</a></li>									
+								</ul>							
+									</section>
+								</div>
+								<div className="col-4 col-12-medium">
+									<section className="last">
+										{/* <i className="icon solid featured alt2 fa-star"></i> */}
+										<header>
+											<h2>Add Extra Guest To Package</h2>
+											<h2>(Up to 15 Passengers)</h2>
+										</header>
+										<h3>$35 + FEES</h3>
+										<h6>Note: This purchase is for any extra guest you would like to add to your package</h6>
+										<p>2 HOUR TOUR</p>
+										<p>BYOB (NO GLASS ALLOWED)</p>
+										<p>COOLER + ICE + DJ ON BOARD</p>										
+										
+								<ul className="actions">
+									<li><a href="https://buy.stripe.com/6oE8x19Ul87MgIobII" className="button large">Book Now</a></li>									
+								</ul>							
 									</section>
 								</div>
 							</div>
 							<footer>
-								<ul className="actions">
-									<li><a href="/BookNow" className="button large">Book Now</a></li>
+								<ul className="actions">									
 									<li><a href="/faqs" className="button alt large">Learn More</a></li>
 								</ul>
 							</footer>
@@ -105,47 +167,17 @@ return (
 											<h2>Explore Our Bus</h2>
 										</header>
 										<div className="row">
-											<div className="col-4 col-6-medium col-12-small">
-												<section className="box">
-													<a href="/Faqs" className="image featured"><img src="images/pic02.jpg" alt="" /></a>
-													<header>
-														<h3>$35 per extra passenger (Group Package required before buying individual ticket)</h3>
-													</header>
-													
-													<footer>
-														<ul className="actions">
-															<li><a href="/Faqs" className="button alt">Find out more</a></li>
-														</ul>
-													</footer>
-												</section>
+											<div className="col-4 col-6-medium col-12-small">												
+													<a href="/Faqs" className="image featured"><img src="images/pic16.jpg" alt="" /></a>												
 											</div>
 											<div className="col-4 col-6-medium col-12-small">
-												<section className="box">
-													<a href="/Faqs" className="image featured"><img src="images/pic03.jpg" alt="" /></a>
-													<header>
-														<h3>A minimum of 15 for private parties with a maximum of 30</h3>
-													</header>
+												
+													<a href="/Faqs" className="image featured"><img src="images/pic14.jpg" alt="" /></a>
 													
-													<footer>
-														<ul className="actions">
-															<li><a href="/Faqs" className="button alt">Find out more</a></li>
-														</ul>
-													</footer>
-												</section>
+												
 											</div>
-											<div className="col-4 col-6-medium col-12-small">
-												<section className="box">
-													<a href="/Faqs" className="image featured"><img src="images/pic04.jpg" alt="" /></a>
-													<header>
-														<h3>Best Way To Celebrate Special Events</h3>
-													</header>
-							
-													<footer>
-														<ul className="actions">
-															<li><a href="/Faqs" className="button alt">Find out more</a></li>
-														</ul>
-													</footer>
-												</section>
+											<div className="col-4 col-6-medium col-12-small">											
+													<a href="/Faqs" className="image featured"><img src="images/pic15.jpg" alt="" /></a>											
 											</div>
 										</div>
 									</section>
@@ -154,24 +186,24 @@ return (
 
 									<section>
 										<header className="major">
-											<h2>Locations</h2>
+											<h2>Explore the inside</h2>
 										</header>
 										<div className="row">
 											<div className="col-6 col-12-small">
 												<section className="box">
-													<a href="/Faqs" className="image featured"><img src="images/pic08.jpg" alt="" /></a>
+													<a href="/Faqs" className="image featured"><img src="images/pic18.jpg" alt="" /></a>
 													<header>
-														<h3>Brickell Area</h3>
+														<h3>Dj Area</h3>
 													
 													</header>
 												
 												</section>
-											</div>
+											</div>									
 											<div className="col-6 col-12-small">
 												<section className="box">
-													<a href="/Faqs" className="image featured"><img src="images/pic09.jpg" alt="" /></a>
+													<a href="/Faqs" className="image featured"><img src="images/pic17.jpg" alt="" /></a>
 													<header>
-														<h3>Wynwood Area</h3>
+														<h3>The Dance Floor</h3>
 													</header>
 												
 												</section>
@@ -194,24 +226,20 @@ return (
 										<li><a className="icon brands fa-yelp" href="https://www.yelp.com/biz/brave-and-free-party-bus-tours-miami"><span className="label">Yelp</span></a></li>
 										<li><a className="icon brands fa-instagram" href="https://www.instagram.com/braveandfree_miami/?r=nametag"><span className="label">Instagram</span></a></li>
 									</ul>
-									<ul >
-										<li>
+																		
 											<h3>Address</h3>
 											<p>
 												4719 NW 7 ST,<br />
 												MIAMI,<br />
 												33126
 											</p>
-										</li>
-										<li>
+																				
 											<h3>Mail</h3>
 											<p><a href="/Faqs">braveandfree305@gmail.com</a></p>
-										</li>
-										<li>
+																			
 											<h3>Phone</h3>
-											<p>(786) 260-3832</p>
-										</li>
-									</ul>
+											<p>(786) 260-3832</p>										
+									
 								</section>
 							</div>
 							<div className="col-12">
@@ -233,11 +261,20 @@ color:purple;
 border: solid 7px purple;
 padding: 15px;
 display:inline;
-font-size: 25px;
+font-size: 20px;
 &:hover {
     text-decoration: none;
 	color:purple;
 }
 `
+const CardWrapper = styled.div`
+  display: none;
+  @media (max-width: 768px) {
+	  margin-top: 50px;
+	  display:block;	  
+  }
+`;
+
+
 
 export default Home;

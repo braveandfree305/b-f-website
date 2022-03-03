@@ -3001,12 +3001,13 @@ ul.social li a.fa-google-plus:hover {
     font-size: 1.25em;
   }
 
-  /* Banner */
-
+ 
   #banner {
-    padding: 6em 0;
+    padding: 25px 15px 20px 15px;
     margin: 2em 0 0 0;
-    height:1200px
+    height:1200px;
+    width: 100%;
+    display: none;
   }
 
   #banner header {

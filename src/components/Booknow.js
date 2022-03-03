@@ -23,17 +23,19 @@ const Booknow =()=> {
 						<h6>(786) 260-3832</h6>
 				</section>
 				<footer>
-								<ul className="actions">									
-									<li><a href="https://buy.stripe.com/6oE8x19Ul87MgIobII" className="button large">Individual Add On Tickets for Packages: Click Here
+																							
+									<a href='https://calendly.com/braveandfree305/group-package?background_color=0fffd7&primary_color=800080'  className="button large">Group Package (15 Passengers)
+									<h6>Note: Extra Guest Can Be Purchased Seperately</h6></a>
+											<br></br>
+											<br></br>							
+									<a href="https://calendly.com/braveandfree305/happy-hour?background_color=0fffd7&primary_color=800080" className="button large">Happy Hour Package(15 Passengers)
+									<h6>Note: Extra Guest Can Be Purchased Seperately</h6></a>
+									<br></br>
+									<br></br>														
+									<a href="https://buy.stripe.com/6oE8x19Ul87MgIobII" className="button large">Individual Add On Tickets for Packages: Click Here
 									<h6>Note: This purchase is for any extra guest of a package purchase.</h6></a>
-									</li>								
-									<li><a href='https://calendly.com/braveandfree305/group-package?background_color=0fffd7&primary_color=800080'  className="button large">Group Package (15 Passengers)
-									<h6>Note: Extra Guest Can Be Purchased Seperately</h6></a>
-									</li>									
-									<li><a href="https://calendly.com/braveandfree305/happy-hour?background_color=0fffd7&primary_color=800080" className="button large">Happy Hour Package(15 Passengers)
-									<h6>Note: Extra Guest Can Be Purchased Seperately</h6></a>
-									</li>																	
-								</ul>
+									<br></br>	
+									<br></br>	
 							</footer>
 			<section id="footer">
 					<div className="container">
@@ -47,24 +49,18 @@ const Booknow =()=> {
 										<li><a className="icon brands fa-yelp" href="https://www.yelp.com/biz/brave-and-free-party-bus-tours-miami"><span className="label">Yelp</span></a></li>
 										<li><a className="icon brands fa-instagram" href="https://www.instagram.com/braveandfree_miami/?r=nametag"><span className="label">Instagram</span></a></li>
 									</ul>
-									<ul >
-										<li>
-											<h3>Address</h3>
+									<h3>Address</h3>
 											<p>
 												4719 NW 7 ST,<br />
 												MIAMI,<br />
 												33126
 											</p>
-										</li>
-										<li>
+																				
 											<h3>Mail</h3>
 											<p><a href="/Faqs">braveandfree305@gmail.com</a></p>
-										</li>
-										<li>
+																			
 											<h3>Phone</h3>
 											<p>(786) 260-3832</p>
-										</li>
-									</ul>
 								</section>
 							</div>
 							<div className="col-12">

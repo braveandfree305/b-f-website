@@ -84,24 +84,18 @@ const Contactus =()=> {
 										<li><a className="icon brands fa-yelp" href="https://www.yelp.com/biz/brave-and-free-party-bus-tours-miami"><span className="label">Yelp</span></a></li>
 										<li><a className="icon brands fa-instagram" href="https://www.instagram.com/braveandfree_miami/?r=nametag"><span className="label">Instagram</span></a></li>
 									</ul>
-									<ul >
-										<li>
-											<h3>Address</h3>
+									<h3>Address</h3>
 											<p>
 												4719 NW 7 ST,<br />
 												MIAMI,<br />
 												33126
 											</p>
-										</li>
-										<li>
+																				
 											<h3>Mail</h3>
 											<p><a href="/Faqs">braveandfree305@gmail.com</a></p>
-										</li>
-										<li>
+																			
 											<h3>Phone</h3>
 											<p>(786) 260-3832</p>
-										</li>
-									</ul>
 								</section>
 							</div>
 							<div className="col-12">
