@@ -5,6 +5,7 @@ import Booknow from './components/Booknow';
 import Prices from "./components/Prices";
 import Faqs from "./components/Faqs";
 import Contactus from "./components/Contactus";
+import Waiver from "./components/PartyBusWaiver";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
@@ -27,6 +28,9 @@ function App() {
 			</Route>
       <Route path='/BookNow'>
 					<Booknow />
+			</Route>
+      <Route path='/Waiver'>
+					<Waiver />
 			</Route>
       </Switch>
     </div>
