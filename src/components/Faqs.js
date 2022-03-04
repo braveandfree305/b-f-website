@@ -174,6 +174,12 @@ The bus is strictly BYOB or (Bring Your Own Beverage). We do not sell any bevera
 </div>
 						</div>
 					</div>
+          {/* <h2>Individual Tickets</h2>
+          <a rel='nofollow' href='https://www.qr-code-generator.com' border='0'><img src='https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fbuy.stripe.com%2F6oE8x19Ul87MgIobII&chs=180x180&choe=UTF-8&chld=L|2' alt='' /></a>
+          <br></br>
+          <br></br>
+          <h2>Waiver</h2>
+          <a rel='nofollow' href='https://www.qr-code-generator.com' border='0'><img src='https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fwaiver.fr%2Fp-gzuf6&chs=180x180&choe=UTF-8&chld=L|2' alt=''/></a> */}
 				</section>
 
 			<section id="footer">

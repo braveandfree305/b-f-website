@@ -143,7 +143,7 @@ return (
 										<p>COOLER + ICE + DJ ON BOARD</p>										
 										
 								<ul className="actions">
-									<li><a href="https://buy.stripe.com/6oE8x19Ul87MgIobII" className="button large">Book Now</a></li>									
+									<li><a href="https://buy.stripe.com/9AQ5kPfeFewacs8bIM" className="button large">Book Now</a></li>									
 								</ul>							
 									</section>
 								</div>

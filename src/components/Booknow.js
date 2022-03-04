@@ -32,7 +32,7 @@ const Booknow =()=> {
 									<h6>Note: Extra Guest Can Be Purchased Seperately</h6></a>
 									<br></br>
 									<br></br>														
-									<a href="https://buy.stripe.com/6oE8x19Ul87MgIobII" className="button large">Individual Add On Tickets for Packages: Click Here
+									<a href="https://buy.stripe.com/9AQ5kPfeFewacs8bIM" className="button large">Individual Add On Tickets for Packages: Click Here
 									<h6>Note: This purchase is for any extra guest of a package purchase.</h6></a>
 									<br></br>	
 									<br></br>	
