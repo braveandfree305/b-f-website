@@ -192,7 +192,7 @@ The bus is strictly BYOB or (Bring Your Own Beverage). We do not sell any bevera
 										<li><a className="icon brands fa-facebook-f" href="/Faqs"><span className="label">Facebook</span></a></li>
 										<li><a className="icon brands fa-twitter" href="/Faqs"><span className="label">Twitter</span></a></li>
 										<li><a className="icon brands fa-yelp" href="https://www.yelp.com/biz/brave-and-free-party-bus-tours-miami"><span className="label">Yelp</span></a></li>
-										<li><a className="icon brands fa-instagram" href="https://www.instagram.com/braveandfree_miami/?r=nametag"><span className="label">Instagram</span></a></li>
+										<li><a className="icon brands fa-instagram" href="https://www.instagram.com/braveandfree.miami/?r=nametag"><span className="label">Instagram</span></a></li>
 									</ul>
 									<h3>Address</h3>
 											<p>
