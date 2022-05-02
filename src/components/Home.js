@@ -8,7 +8,7 @@ return (
 
 					{/* <!-- Logo --> */}
 
-						<h1><a href="/">Brave & Free Miami Tour Bus</a></h1>
+						<h1><a href="/">rave & Free Miami Tour Bus</a></h1>
 
 					{/* <!-- Nav --> */}
 						<nav id="nav">
